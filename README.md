@@ -1,5 +1,7 @@
 ## **Project Workflow: Minneapolis City Directory Resident Extraction (1900–1950)**
 
+### **1910**
+
 ### **1. Image Scraping with `scraper.py`**
 
 * **Objective:** Download high-quality directory page images (average size: 1.3MB) from the ResCarta web viewer for a single Minneapolis directory year (e.g., 1910).
