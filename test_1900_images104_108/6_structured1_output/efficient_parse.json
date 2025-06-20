@@ -1,0 +1,3499 @@
+{
+  "metadata": {
+    "total_entries": 249,
+    "processed_date": "2025-06-20T01:09:21.974545",
+    "stats": {
+      "regex_parsed": 249,
+      "llm_parsed": 0,
+      "failed": 0
+    }
+  },
+  "entries": [
+    {
+      "FirstName": "Christian C",
+      "LastName": "Aabel",
+      "Spouse": null,
+      "Occupation": "porter",
+      "CompanyName": "Geo R Newell & Co",
+      "HomeAddress": {
+        "StreetNumber": "1329",
+        "StreetName": "Irving av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aabel Christian C, porter Geo R Newell & Co, r 1329 Irving av n.."
+    },
+    {
+      "FirstName": "Arne",
+      "LastName": "Aaberg",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2507",
+        "StreetName": "Riverside av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aaberg Arne, b 2507 Riverside av."
+    },
+    {
+      "FirstName": "Arne O",
+      "LastName": "Aaberg",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "1600",
+        "StreetName": "s e 4th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Arne O, student U of M, b 1600 s e 4th."
+    },
+    {
+      "FirstName": "Melkior K",
+      "LastName": "Aaberg",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "UC Sem",
+      "HomeAddress": {
+        "StreetNumber": "2401",
+        "StreetName": "Butler pl",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Melkior K, student UC Sem, rms 2401 Butler pl."
+    },
+    {
+      "FirstName": "Aslak A",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "millwright",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1810",
+        "StreetName": "s 5th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aaby Aslak A, millwright, r 1810 s 5th."
+    },
+    {
+      "FirstName": "Caroline",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "110",
+        "StreetName": "University av ne",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Caroline, smstrs, b 110 University av ne. RT C\u00d3"
+    },
+    {
+      "FirstName": "Henry C",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "cond",
+      "CompanyName": "TCRT Co",
+      "HomeAddress": {
+        "StreetNumber": "110",
+        "StreetName": "Uni- versity av ne",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Henry C, cond TCRT Co, b 110 Uni- versity av ne. Uni-"
+    },
+    {
+      "FirstName": "Louis C",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "cond",
+      "CompanyName": "TCRT Co",
+      "HomeAddress": {
+        "StreetNumber": "110",
+        "StreetName": "versity av ne",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Louis C, cond TCRT Co, b 110 versity av ne. Aagaard, see also Aargaard."
+    },
+    {
+      "FirstName": "Elsie K",
+      "LastName": "Aaby",
+      "Spouse": "Rasmus N",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1531",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Elsie K (wid Rasmus N), r 1531 e 18th."
+    },
+    {
+      "FirstName": "George N",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "cutter",
+      "CompanyName": "Yerxa Bros & Co",
+      "HomeAddress": {
+        "StreetNumber": "1531",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George N, cutter Yerxa Bros & Co, b 1531 e 18th."
+    },
+    {
+      "FirstName": "Paul N",
+      "LastName": "Aaby",
+      "Spouse": null,
+      "Occupation": "bkpr",
+      "CompanyName": "Foster & Waldo",
+      "HomeAddress": {
+        "StreetNumber": "1522",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Paul N, bkpr Foster & Waldo, r 1522 e 18th."
+    },
+    {
+      "FirstName": "Bert O.",
+      "LastName": "Aahjem",
+      "Spouse": null,
+      "Occupation": "waiter",
+      "CompanyName": "103 Washn. av s",
+      "HomeAddress": {
+        "StreetNumber": "307",
+        "StreetName": "g 5th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aahjem Bert O. waiter 103 Washn. av s, r 307 g 5th. Aaker, see also Acker and Aker."
+    },
+    {
+      "FirstName": "Andrew L",
+      "LastName": "Aahjem",
+      "Spouse": null,
+      "Occupation": "creamery",
+      "CompanyName": "1628 s 5th",
+      "HomeAddress": {
+        "StreetNumber": "1528",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Andrew L, creamery 1628 s 5th, r 1528 e 18th."
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Aahjem",
+      "Spouse": null,
+      "Occupation": "cook",
+      "CompanyName": "601 Washn av s",
+      "HomeAddress": {
+        "StreetNumber": "800",
+        "StreetName": "s 6th",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles, cook 601 Washn av s, rms 800 s 6th. ABB"
+    },
+    {
+      "FirstName": "Anna B",
+      "LastName": "Aalbu",
+      "Spouse": null,
+      "Occupation": "stenogr",
+      "CompanyName": "Mpls Brew Co",
+      "HomeAddress": {
+        "StreetNumber": "242",
+        "StreetName": "20th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aalbu Anna B, stenogr Mpls Brew Co, b 242 20th av n."
+    },
+    {
+      "FirstName": "Oscar S",
+      "LastName": "Aalbu",
+      "Spouse": null,
+      "Occupation": "bartndr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "242",
+        "StreetName": "20th av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Oscar S, bartndr, r 242 20th av n."
+    },
+    {
+      "FirstName": "Christen",
+      "LastName": "Aalund",
+      "Spouse": null,
+      "Occupation": "bottler",
+      "CompanyName": "Jos Schlitz Brew Co",
+      "HomeAddress": {
+        "StreetNumber": "604",
+        "StreetName": "20th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aalund Christen, bottler Jos Schlitz Brew Co, r 604 20th av s."
+    },
+    {
+      "FirstName": "Dorothea H",
+      "LastName": "Aalund",
+      "Spouse": null,
+      "Occupation": "tchr",
+      "CompanyName": "Longfellow",
+      "HomeAddress": {
+        "StreetNumber": "604",
+        "StreetName": "20th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Dorothea H, tchr Longfellow b 604 20th av s. school,"
+    },
+    {
+      "FirstName": "Alfred",
+      "LastName": "Aamodt",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "M H Aamodt",
+      "HomeAddress": {
+        "StreetNumber": "1015",
+        "StreetName": "Talmadge av s e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aamodt Alfred, clk M H Aamodt, r 1015 Talmadge av s e."
+    },
+    {
+      "FirstName": "Anna S",
+      "LastName": "Aamodt",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": "Tucker & Savage",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "14th av s e",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Anna S, smstrs Tucker & Savage, b 923 14th av s e."
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Aamodt",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "SE Olson Co",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "14th av se",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John, clk SE Olson Co, b 923 14th av se."
+    },
+    {
+      "FirstName": "Nels C",
+      "LastName": "Aamodt",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": "Larson & Nelander",
+      "HomeAddress": {
+        "StreetNumber": "1082",
+        "StreetName": "17th av s e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Nels C, foreman Larson & Nelander, r 1082 17th av s e."
+    },
+    {
+      "FirstName": "Sarah",
+      "LastName": "Aamodt",
+      "Spouse": "Nels C",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2014",
+        "StreetName": "15th av's",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Sarah (wid Nels C), r 2014 15th av's."
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Aaram",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2430",
+        "StreetName": "n 4th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aaram John, lab, b 2430 n 4th."
+    },
+    {
+      "FirstName": "Bernhart J",
+      "LastName": "Aargaard",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Brown Bros Mer Co",
+      "HomeAddress": {
+        "StreetNumber": "2406",
+        "StreetName": "Riverside av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Bernhart J, clk Brown Bros Mer Co, b 2406 Riverside av."
+    },
+    {
+      "FirstName": "Charles J",
+      "LastName": "Aaronson",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "521",
+        "StreetName": "12th av s",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aaronson Charles J, lab, rms 521 12th av s. Aarseth, see also Arseth."
+    },
+    {
+      "FirstName": "Rey K",
+      "LastName": "Aaronson",
+      "Spouse": null,
+      "Occupation": "stage",
+      "CompanyName": "mech Metropolitan the- atre",
+      "HomeAddress": {
+        "StreetNumber": "26",
+        "StreetName": "s 6th",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Rey K, stage mech Metropolitan the- atre, rms 26 s 6th. Aarsted, see Austed and Oustad."
+    },
+    {
+      "FirstName": "John A",
+      "LastName": "Aarvold",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "C M & St P Ry shops",
+      "HomeAddress": {
+        "StreetNumber": "3232",
+        "StreetName": "Longfellow av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aarvold John A, lab C M & St P Ry shops, r 3232 Longfellow av."
+    },
+    {
+      "FirstName": "Gina",
+      "LastName": "Aarvold",
+      "Spouse": null,
+      "Occupation": "ironer",
+      "CompanyName": "Franklin Steam Laundry",
+      "HomeAddress": {
+        "StreetNumber": "1927",
+        "StreetName": "14th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Gina, ironer Franklin Steam Laundry, b 1927 14th av s."
+    },
+    {
+      "FirstName": "Elling J",
+      "LastName": "Aase",
+      "Spouse": null,
+      "Occupation": "tailor",
+      "CompanyName": "103 s 5th",
+      "HomeAddress": {
+        "StreetNumber": "2200",
+        "StreetName": "s 7%",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aase Elling J, tailor 103 s 5th, r 2200 s 7%."
+    },
+    {
+      "FirstName": "George",
+      "LastName": "Aase",
+      "Spouse": null,
+      "Occupation": "nurse",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2200",
+        "StreetName": "$ 72",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George, nurse, b 2200 $ 72."
+    },
+    {
+      "FirstName": "Alfred",
+      "LastName": "Aasen",
+      "Spouse": "Christian",
+      "Occupation": "painter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3200",
+        "StreetName": "19th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aasen Alfred, painter, b 3200 19th av s. 6 Anne (wid Christian) r 3200 19th av s."
+    },
+    {
+      "FirstName": "Christian O",
+      "LastName": "Aasgaard",
+      "Spouse": null,
+      "Occupation": "policeman",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2308",
+        "StreetName": "s 8th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aasgaard Christian O, policeman, r 2308 s 8th."
+    },
+    {
+      "FirstName": "John A",
+      "LastName": "Aasgaard",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U C Sem",
+      "HomeAddress": {
+        "StreetNumber": "804",
+        "StreetName": "22d av s",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John A, student U C Sem, rms 804 22d av s. Abar, see also Aber."
+    },
+    {
+      "FirstName": "Joseph",
+      "LastName": "Abaud",
+      "Spouse": null,
+      "Occupation": "peddler",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "307",
+        "StreetName": "ne Main",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abaud Joseph, peddler, rms 307 ne Main."
+    },
+    {
+      "FirstName": "Walter",
+      "LastName": "Abaud",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "225",
+        "StreetName": "28th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Walter, lab, b 225 28th av n."
+    },
+    {
+      "FirstName": "Edward J",
+      "LastName": "Abbaticchio",
+      "Spouse": null,
+      "Occupation": "ball",
+      "CompanyName": "player",
+      "HomeAddress": {
+        "StreetNumber": "3201",
+        "StreetName": "Nicollet av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abbaticchio Edward J, ball player, b 3201 Nicollet av."
+    },
+    {
+      "FirstName": "Rocco",
+      "LastName": "Abbato",
+      "Spouse": null,
+      "Occupation": "musician",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "56",
+        "StreetName": "Central av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abbato Rocco, musician, r 56 Central av."
+    },
+    {
+      "FirstName": "Edward A",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "collr",
+      "CompanyName": "Co-Op Ldry Co",
+      "HomeAddress": {
+        "StreetNumber": "2921",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abbett Edward A, collr Co-Op Ldry Co, r 2921 Clinton av."
+    },
+    {
+      "FirstName": "Elza S",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2915",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Elza S, painter, r 2915 Clinton av."
+    },
+    {
+      "FirstName": "Louis A",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "tray",
+      "CompanyName": "agt",
+      "HomeAddress": {
+        "StreetNumber": "3046",
+        "StreetName": "Bloomington av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Louis A, tray agt, b 3046 Bloomington av. MORTGAGES Made on improved property in Minneapolis AAKER ..."
+    },
+    {
+      "FirstName": "Iver L",
+      "LastName": "Canned",
+      "Spouse": "I L Aaker & Co",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1815",
+        "StreetName": "17th R",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Iver L (I L Aaker & Co), r 1815 17th R. M. NEWPORT & SON, av s."
+    },
+    {
+      "FirstName": "Minnie",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "LymanEliel Drug Co",
+      "HomeAddress": {
+        "StreetNumber": "2915",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abbett Minnie, clk LymanEliel Drug Co, b 2915 Clinton av.."
+    },
+    {
+      "FirstName": "Smith",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "driver",
+      "CompanyName": "Wells, Fargo & Co Ex- press",
+      "HomeAddress": {
+        "StreetNumber": "2915",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Smith, driver Wells, Fargo & Co Ex- press, b 2915 Clinton av."
+    },
+    {
+      "FirstName": "Zoe L",
+      "LastName": "Abbett",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2915",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Zoe L, clk, b 2915 Clinton av."
+    },
+    {
+      "FirstName": "Luther",
+      "LastName": "Abbey",
+      "Spouse": null,
+      "Occupation": "photogr",
+      "CompanyName": "SE Olson Co",
+      "HomeAddress": {
+        "StreetNumber": "1125",
+        "StreetName": "3d av S",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abbey Luther, photogr SE Olson Co, r 1125 3d av S."
+    },
+    {
+      "FirstName": "Richard",
+      "LastName": "Abbey",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "816",
+        "StreetName": "s 5th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Richard, lab, r 816 s 5th."
+    },
+    {
+      "FirstName": "Albert A",
+      "LastName": "Abbler",
+      "Spouse": null,
+      "Occupation": "supt",
+      "CompanyName": "Fire-Proof Door Co",
+      "HomeAddress": {
+        "StreetNumber": "2650",
+        "StreetName": "Pleasant av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Albert A, supt Fire-Proof Door Co, r 2650 Pleasant av. ABBOTT AMOS W, PHYSICIAN 21 S 10th, r same, ..."
+    },
+    {
+      "FirstName": "Arthur R",
+      "LastName": "Abbler",
+      "Spouse": null,
+      "Occupation": "eng",
+      "CompanyName": "W I Gray & Co",
+      "HomeAddress": {
+        "StreetNumber": "617",
+        "StreetName": "se Delaware",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Arthur R, eng W I Gray & Co, b 617 se Delaware."
+    },
+    {
+      "FirstName": "Charles L",
+      "LastName": "Abbler",
+      "Spouse": null,
+      "Occupation": "letter",
+      "CompanyName": "carrier",
+      "HomeAddress": {
+        "StreetNumber": "3017",
+        "StreetName": "Oakland av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles L, letter carrier, r 3017 Oakland av."
+    },
+    {
+      "FirstName": "Claude U",
+      "LastName": "Abbler",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "1228",
+        "StreetName": "ne Adams",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Claude U, student U of M, r 1228 ne Adams."
+    },
+    {
+      "FirstName": "Edwin B",
+      "LastName": "Food",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1120",
+        "StreetName": "Chestnut av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Edwin B, student, b 1120 Chestnut av."
+    },
+    {
+      "FirstName": "Frank E",
+      "LastName": "Eliza",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Lillibridge-Bremner Fac- _tory",
+      "HomeAddress": {
+        "StreetNumber": "3728",
+        "StreetName": "Bloomington av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Frank E, clk Lillibridge-Bremner Fac- _tory, r 3728 Bloomington av."
+    },
+    {
+      "FirstName": "George D",
+      "LastName": "Eliza",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": "JR Wagner",
+      "HomeAddress": {
+        "StreetNumber": "3225",
+        "StreetName": "\" 5th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George D, painter JR Wagner, b 3225 \" 5th av s."
+    },
+    {
+      "FirstName": "Glenn B",
+      "LastName": "Eliza",
+      "Spouse": null,
+      "Occupation": "hostler",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2914",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Glenn B, hostler, b 2914 1st av s."
+    },
+    {
+      "FirstName": "Hiram T",
+      "LastName": "Eliza",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2914",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Hiram T, r 2914 1st av s."
+    },
+    {
+      "FirstName": "Howard S",
+      "LastName": "Eliza",
+      "Spouse": null,
+      "Occupation": "lawyer,",
+      "CompanyName": "US Master in Chancery 10 Federal bldg",
+      "HomeAddress": {
+        "StreetNumber": "902",
+        "StreetName": "s e 6th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Howard S, lawyer, US Master in Chancery 10 Federal bldg, r 902 s e 6th."
+    },
+    {
+      "FirstName": "Lee W",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "mngr",
+      "CompanyName": "Dealers' Fuel Co",
+      "HomeAddress": {
+        "StreetNumber": "2915",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Lee W, mngr Dealers' Fuel Co, r 2915 1st av s. \" Louisa A, moved to Duluth, Minn."
+    },
+    {
+      "FirstName": "Luther T",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "mnfrs",
+      "CompanyName": "agt 310 Kasota bldg",
+      "HomeAddress": {
+        "StreetNumber": "138",
+        "StreetName": "Laurel av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Luther T, mnfrs agt 310 Kasota bldg, r 138 Laurel av. 41 \" 41"
+    },
+    {
+      "FirstName": "Sarah E",
+      "LastName": "Mabel",
+      "Spouse": "Joseph D",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3225",
+        "StreetName": "5th av S",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Sarah E (wid Joseph D), b 3225 5th av S."
+    },
+    {
+      "FirstName": "Wm P",
+      "LastName": "Mabel",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "1300",
+        "StreetName": "s e 5th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Wm P, student U of M. b 1300 s e 5th."
+    },
+    {
+      "FirstName": "Joseph",
+      "LastName": "Abboud",
+      "Spouse": null,
+      "Occupation": "peddler",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "307",
+        "StreetName": "ne Main",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abboud Joseph, peddler, rms 307 ne Main."
+    },
+    {
+      "FirstName": "Sarah M",
+      "LastName": "Abby",
+      "Spouse": null,
+      "Occupation": "appr",
+      "CompanyName": "M S Stabler",
+      "HomeAddress": {
+        "StreetNumber": "214",
+        "StreetName": "6th av n e",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abby Sarah M, appr M S Stabler, b 214 6th av n e. ABDALLE MAOWD, GROCER 311 N E Main, r same."
+    },
+    {
+      "FirstName": "Frank E",
+      "LastName": "Abear",
+      "Spouse": "John",
+      "Occupation": "clk",
+      "CompanyName": "N S Clothing Co",
+      "HomeAddress": {
+        "StreetNumber": "29",
+        "StreetName": "s 12th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abear Frank E, clk N S Clothing Co, r 29 s 12th. \" Ralph W, clk SE Olson Co, b 29 s 12th. Abel, see ..."
+    },
+    {
+      "FirstName": "George",
+      "LastName": "Abel",
+      "Spouse": null,
+      "Occupation": "wireman",
+      "CompanyName": "M V Tel Co",
+      "HomeAddress": {
+        "StreetNumber": "1507",
+        "StreetName": "e 25th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abel George, wireman M V Tel Co, r 1507 e 25th."
+    },
+    {
+      "FirstName": "Gustave",
+      "LastName": "Abel",
+      "Spouse": null,
+      "Occupation": "tmstr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "817",
+        "StreetName": "9th av s e",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Gustave, tmstr, b 817 9th av s e."
+    },
+    {
+      "FirstName": "Honorius L",
+      "LastName": "Abel",
+      "Spouse": "Abel & Co",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1303",
+        "StreetName": "n e 5th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Honorius L (Abel & Co), r 1303 n e 5th."
+    },
+    {
+      "FirstName": "Margaret",
+      "LastName": "Abel",
+      "Spouse": "Narcisse S",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1430",
+        "StreetName": "ne 6th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Margaret (wid Narcisse S), b 1430 ne 6th."
+    },
+    {
+      "FirstName": "Mary L",
+      "LastName": "Abel",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": "Lina Christianson",
+      "HomeAddress": {
+        "StreetNumber": "1303",
+        "StreetName": "n e 5th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mary L, smstrs Lina Christianson, b 1303 n e 5th."
+    },
+    {
+      "FirstName": "Paul E",
+      "LastName": "Abel",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1303",
+        "StreetName": "n e 5th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Paul E, student, b 1303 n e 5th."
+    },
+    {
+      "FirstName": "Rosina",
+      "LastName": "Abel",
+      "Spouse": "Herman",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2007",
+        "StreetName": "s 9th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Rosina (wid Herman), b 2007 s 9th.."
+    },
+    {
+      "FirstName": "Simeon E",
+      "LastName": "Abel",
+      "Spouse": "Honorius L Abel, Samuel Emond",
+      "Occupation": "clk",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1430",
+        "StreetName": "n e 6th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Simeon E, clk, r 1430 n e 6th. r 2115 Aldrich av s. \"& Co (Honorius L Abel, Samuel Emond). grocers ..."
+    },
+    {
+      "FirstName": "Ace P.",
+      "LastName": "Abell",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "of probate court, lawyer 302 Bank of Com bldg",
+      "HomeAddress": {
+        "StreetNumber": "3220",
+        "StreetName": "Columbus",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abell Ace P. clk of probate court, lawyer 302 Bank of Com bldg , r 3220 Columbus"
+    },
+    {
+      "FirstName": "Cerelda A",
+      "LastName": "Abell",
+      "Spouse": "James",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3220",
+        "StreetName": "Columbus av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Cerelda A (wid James), b 3220 Columbus av. av."
+    },
+    {
+      "FirstName": "Grace C",
+      "LastName": "Abell",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "301",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Grace C, b 301 e Lake,"
+    },
+    {
+      "FirstName": "Henry M",
+      "LastName": "Abell",
+      "Spouse": null,
+      "Occupation": "trav",
+      "CompanyName": "agt Smith & Zimmer",
+      "HomeAddress": {
+        "StreetNumber": "301",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Henry M, trav agt Smith & Zimmer, r 301 e Lake."
+    },
+    {
+      "FirstName": "Petrina M",
+      "LastName": "Abels",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": "S R Escott",
+      "HomeAddress": {
+        "StreetNumber": "2608",
+        "StreetName": "s 8th",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Petrina M, smstrs S R Escott, rms 2608 s 8th."
+    },
+    {
+      "FirstName": "Abel",
+      "LastName": "Abelson",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": "Johnson, Smith & Co",
+      "HomeAddress": {
+        "StreetNumber": "2939",
+        "StreetName": "Colfax av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abelson Abel, carp Johnson, Smith & Co, r 2939 Colfax av n."
+    },
+    {
+      "FirstName": "Abel",
+      "LastName": "Abelson",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "214",
+        "StreetName": "Washn av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Abel, lab, b 214 Washn av n."
+    },
+    {
+      "FirstName": "Robert E",
+      "LastName": "Aberl",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": "Northern Paint Co",
+      "HomeAddress": {
+        "StreetNumber": "1100",
+        "StreetName": "ne Adams",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aberl Robert E, foreman Northern Paint Co, r 1100 ne Adams."
+    },
+    {
+      "FirstName": "Assn",
+      "LastName": "Life",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "527",
+        "StreetName": "Humboldt av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Life Assn, b 527 Humboldt av n."
+    },
+    {
+      "FirstName": "Mathias",
+      "LastName": "Life",
+      "Spouse": null,
+      "Occupation": "tmstr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "527",
+        "StreetName": "Humboldt av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mathias, tmstr, r 527 Humboldt av n."
+    },
+    {
+      "FirstName": "Frank S",
+      "LastName": "Abernethy",
+      "Spouse": null,
+      "Occupation": "slsmn",
+      "CompanyName": "Emerson & Hall",
+      "HomeAddress": {
+        "StreetNumber": "2824",
+        "StreetName": "Penn av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abernethy Frank S, slsmn Emerson & Hall, b 2824 Penn av n."
+    },
+    {
+      "FirstName": "Robert",
+      "LastName": "Abernethy",
+      "Spouse": null,
+      "Occupation": "fuel",
+      "CompanyName": "119 e Lake",
+      "HomeAddress": {
+        "StreetNumber": "2901",
+        "StreetName": "Clinton Aberts",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Robert, fuel 119 e Lake, rms 2901 Clinton Aberts, see Ebert. av."
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Ablat",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "223",
+        "StreetName": "s 2d",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ablat John, lab, b 223 s 2d."
+    },
+    {
+      "FirstName": "Albert F",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "HC Akeley Lbr Co",
+      "HomeAddress": {
+        "StreetNumber": "1905",
+        "StreetName": "n 3d",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abraham Albert F, lab HC Akeley Lbr Co, b 1905 n 3d."
+    },
+    {
+      "FirstName": "August",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "G N Ry",
+      "HomeAddress": {
+        "StreetNumber": "1905",
+        "StreetName": "n 3d",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"August, lab G N Ry, r 1905 n 3d."
+    },
+    {
+      "FirstName": "David C",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "trav",
+      "CompanyName": "agt",
+      "HomeAddress": {
+        "StreetNumber": "2541",
+        "StreetName": "Harriet av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"David C, trav agt, r 2541 Harriet av."
+    },
+    {
+      "FirstName": "Delia",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "opr",
+      "CompanyName": "N S Shoe Co",
+      "HomeAddress": {
+        "StreetNumber": "1900",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Delia, opr N S Shoe Co, b 1900 6th av n."
+    },
+    {
+      "FirstName": "Eliza A",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2703",
+        "StreetName": "Lake of the Isles boul",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Eliza A, b 2703 Lake of the Isles boul."
+    },
+    {
+      "FirstName": "Ferdinand",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "car",
+      "CompanyName": "repr",
+      "HomeAddress": {
+        "StreetNumber": "1900",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Ferdinand, car repr, r 1900 6th av n."
+    },
+    {
+      "FirstName": "Herman",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "Backus-Brooks Co",
+      "HomeAddress": {
+        "StreetNumber": "441",
+        "StreetName": "19th av n e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Herman, lab Backus-Brooks Co, r 441 19th av n e."
+    },
+    {
+      "FirstName": "John A",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "bartndr",
+      "CompanyName": "25 s 4th",
+      "HomeAddress": {
+        "StreetNumber": "18",
+        "StreetName": "s 12th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John A, bartndr 25 s 4th, r 18 s 12th."
+    },
+    {
+      "FirstName": "Joseph C",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Roger Charlton",
+      "HomeAddress": {
+        "StreetNumber": "2541",
+        "StreetName": "Harriet av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Joseph C, clk Roger Charlton, b 2541 Harriet av. WHEN YOU GET READY to go to Housekeeping bring"
+    },
+    {
+      "FirstName": "Mary T",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2703",
+        "StreetName": "Lake of the Isles boul",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abraham Mary T, b 2703 Lake of the Isles boul"
+    },
+    {
+      "FirstName": "Max",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "mnfrs",
+      "CompanyName": "agt 614 Boston blk",
+      "HomeAddress": {
+        "StreetNumber": "1807",
+        "StreetName": "3d av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Max, mnfrs agt 614 Boston blk, r 1807 3d av s."
+    },
+    {
+      "FirstName": "Roland R",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2541",
+        "StreetName": "Harriet av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Roland R, clk, b 2541 Harriet av."
+    },
+    {
+      "FirstName": "Sigmund",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Benjamin Jacobs",
+      "HomeAddress": {
+        "StreetNumber": "1807",
+        "StreetName": "3d av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Sigmund, clk Benjamin Jacobs, b 1807 3d av s."
+    },
+    {
+      "FirstName": "Sydney D",
+      "LastName": "Abraham",
+      "Spouse": null,
+      "Occupation": "pharmacist",
+      "CompanyName": "B L Levy",
+      "HomeAddress": {
+        "StreetNumber": "2541",
+        "StreetName": "Harriet av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Sydney D, pharmacist B L Levy, r 2541 Harriet av."
+    },
+    {
+      "FirstName": "Isaac",
+      "LastName": "Abrahams",
+      "Spouse": null,
+      "Occupation": "second",
+      "CompanyName": "hand goods 14 s 2d",
+      "HomeAddress": {
+        "StreetNumber": "256",
+        "StreetName": "13th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abrahams Isaac, second hand goods 14 s 2d, r 256 13th av s."
+    },
+    {
+      "FirstName": "Adolph",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3017",
+        "StreetName": "47th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abrahamson Adolph, foreman, r 3017 47th"
+    },
+    {
+      "FirstName": "Algott L",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Thomas Gardiner",
+      "HomeAddress": {
+        "StreetNumber": "821",
+        "StreetName": "29th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Algott L, clk Thomas Gardiner, b 821 29th av s."
+    },
+    {
+      "FirstName": "Andrew",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "waiter",
+      "CompanyName": "1317 Washn av s",
+      "HomeAddress": {
+        "StreetNumber": "220",
+        "StreetName": "12th av S",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Andrew, waiter 1317 Washn av s, rms 220 12th av S."
+    },
+    {
+      "FirstName": "Andrew R",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "patternmkr",
+      "CompanyName": "McCartney Bros",
+      "HomeAddress": {
+        "StreetNumber": "2936",
+        "StreetName": "16th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Andrew R, patternmkr McCartney Bros, r 2936 16th av s."
+    },
+    {
+      "FirstName": "Charles A",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "mason",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1601",
+        "StreetName": "s 5th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles A,, mason, b 1601 s 5th."
+    },
+    {
+      "FirstName": "Charles J",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1806",
+        "StreetName": "e 31st",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles J, lab, b 1806 e 31st."
+    },
+    {
+      "FirstName": "Charles L",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "broommkr",
+      "CompanyName": "JP Lyons",
+      "HomeAddress": {
+        "StreetNumber": "821",
+        "StreetName": "29th av S",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles L, broommkr JP Lyons, b 821 29th av S..."
+    },
+    {
+      "FirstName": "Emil",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": ";",
+      "CompanyName": "cabtmkr Otto Witte",
+      "HomeAddress": {
+        "StreetNumber": "1806",
+        "StreetName": "s 31st",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Emil; cabtmkr Otto Witte, r 1806 s 31st. Frederick, clk John W Thomas & Co, b 1001 e Lake."
+    },
+    {
+      "FirstName": "Gustaf",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "mason",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "821",
+        "StreetName": "29th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Gustaf, mason, r 821 29th av s."
+    },
+    {
+      "FirstName": "Harry",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1806",
+        "StreetName": "e 31st",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Harry, painter, b 1806 e 31st."
+    },
+    {
+      "FirstName": "Mrs J",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "ohanna",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2321",
+        "StreetName": "e 22d",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Johanna, b 2321 e 22d."
+    },
+    {
+      "FirstName": "John O",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1806",
+        "StreetName": "e 31st",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John O, carp, b 1806 e 31st."
+    },
+    {
+      "FirstName": "Martin E",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "jeweler",
+      "CompanyName": "Mpls Jewelry Mnfg Co",
+      "HomeAddress": {
+        "StreetNumber": "2448",
+        "StreetName": "14th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Martin E, jeweler Mpls Jewelry Mnfg Co, r 2448 14th av s."
+    },
+    {
+      "FirstName": "Mrs M",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "ary,",
+      "CompanyName": "laundress",
+      "HomeAddress": {
+        "StreetNumber": "259",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Mary, laundress, r 259 6th av n."
+    },
+    {
+      "FirstName": "Ole",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3436",
+        "StreetName": "19th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Ole, carp, r 3436 19th av s."
+    },
+    {
+      "FirstName": "Oscar",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2321",
+        "StreetName": "25th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Oscar, carp. r 2321 25th av s."
+    },
+    {
+      "FirstName": "Peter",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "glazier",
+      "CompanyName": "Bardwell-Robinson Co",
+      "HomeAddress": {
+        "StreetNumber": "604",
+        "StreetName": "25th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Peter, glazier Bardwell-Robinson Co. b 604 25th av n."
+    },
+    {
+      "FirstName": "Robert S",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "driver",
+      "CompanyName": "CO Goodlund",
+      "HomeAddress": {
+        "StreetNumber": "2936",
+        "StreetName": "16th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Robert S, driver CO Goodlund, b 2936 16th av s. \" Sophia, smstrs, rms flat 3 55 Eastman av."
+    },
+    {
+      "FirstName": "Sophia",
+      "LastName": "Abrahamson",
+      "Spouse": "Charles T",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1001",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Sophia (wid Charles T), r 1001 e Lake."
+    },
+    {
+      "FirstName": "Swan",
+      "LastName": "Abrahamson",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2916",
+        "StreetName": "Pillsbury av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Swan, lab, r 2916 Pillsbury av. \" Swan, janitor N Y Life bldg, r 923 13th av s."
+    },
+    {
+      "FirstName": "Alice M",
+      "LastName": "Abram",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Yerxa Bros & Co",
+      "HomeAddress": {
+        "StreetNumber": "746",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abram Alice M, clk Yerxa Bros & Co, b 746 e 18th."
+    },
+    {
+      "FirstName": "John M",
+      "LastName": "Abram",
+      "Spouse": null,
+      "Occupation": "brander",
+      "CompanyName": "Cons Milling Co",
+      "HomeAddress": {
+        "StreetNumber": "3122",
+        "StreetName": "23d av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John M, brander Cons Milling Co, r 3122 23d av s."
+    },
+    {
+      "FirstName": "Joseph",
+      "LastName": "Abram",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": "Cons Milling Co",
+      "HomeAddress": {
+        "StreetNumber": "746",
+        "StreetName": "e 18th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Joseph, foreman Cons Milling Co, r 746 e 18th."
+    },
+    {
+      "FirstName": "Harris",
+      "LastName": "Abramowitz",
+      "Spouse": null,
+      "Occupation": "peddler",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "418",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abramowitz Harris, peddler, r 418 6th av n."
+    },
+    {
+      "FirstName": "Philip M",
+      "LastName": "Abramowitz",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "418",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Philip M, student, b 418 6th av n."
+    },
+    {
+      "FirstName": "Rose",
+      "LastName": "Abramowitz",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "418",
+        "StreetName": "6th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Rose, smstrs, b 418 6th av n."
+    },
+    {
+      "FirstName": "Elizabeth",
+      "LastName": "Abrams",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Jonas Abrams",
+      "HomeAddress": {
+        "StreetNumber": "806",
+        "StreetName": "Lyn- dale pl",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Elizabeth, clk Jonas Abrams, b 806 Lyn- dale pl."
+    },
+    {
+      "FirstName": "James L",
+      "LastName": "Abrams",
+      "Spouse": null,
+      "Occupation": "letter",
+      "CompanyName": "carrier",
+      "HomeAddress": {
+        "StreetNumber": "2400",
+        "StreetName": "Irving av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"James L, letter carrier, r 2400 Irving av n."
+    },
+    {
+      "FirstName": "House",
+      "LastName": "Storage",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3213",
+        "StreetName": "Aldrich av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Storage House, r 3213 Aldrich av s... Jonas, dyer 727 Lyndale av n, r 806 same."
+    },
+    {
+      "FirstName": "Mary D",
+      "LastName": "Storage",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2629",
+        "StreetName": "3d av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mary D, smstrs, r 2629 3d av s. \" \" O Moritz, painter 237 10th av s, r same."
+    },
+    {
+      "FirstName": "Samuel O",
+      "LastName": "Storage",
+      "Spouse": null,
+      "Occupation": "slsmn",
+      "CompanyName": "J H Martin & Co",
+      "HomeAddress": {
+        "StreetNumber": "1016",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Samuel O, slsmn J H Martin & Co, b 1016 1st av s."
+    },
+    {
+      "FirstName": "Wm T",
+      "LastName": "Storage",
+      "Spouse": null,
+      "Occupation": "comp",
+      "CompanyName": "G W Ptg Co",
+      "HomeAddress": {
+        "StreetNumber": "1011",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Wm T, comp G W Ptg Co, r 1011 1st av s"
+    },
+    {
+      "FirstName": "John",
+      "LastName": "Abromed",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2115",
+        "StreetName": "Aldrich av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abromed John, r 2115 Aldrich av n."
+    },
+    {
+      "FirstName": "Johanna",
+      "LastName": "Abst",
+      "Spouse": null,
+      "Occupation": "opr",
+      "CompanyName": "Hegna Mnfg Co",
+      "HomeAddress": {
+        "StreetNumber": "3020",
+        "StreetName": "Queen av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abst Johanna, opr Hegna Mnfg Co. b 3020 Queen av n.."
+    },
+    {
+      "FirstName": "Emma",
+      "LastName": "Abt",
+      "Spouse": "Michael",
+      "Occupation": "tchr",
+      "CompanyName": "Everett. school",
+      "HomeAddress": {
+        "StreetNumber": "2309",
+        "StreetName": "Bryant av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Abt Emma (wid Michael), tchr Everett. school, b 2309 Bryant av s."
+    },
+    {
+      "FirstName": "Arthur",
+      "LastName": "Aby",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": "Lillibridge-Bremner Fac- tory",
+      "HomeAddress": {
+        "StreetNumber": "2730",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Aby Arthur, carp Lillibridge-Bremner Fac- tory, r 2730 1st av s."
+    },
+    {
+      "FirstName": "Nathaniel J",
+      "LastName": "Acers",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "627",
+        "StreetName": "Washn av S",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Acers Nathaniel J, lab, r 627 Washn av S."
+    },
+    {
+      "FirstName": "Constant H",
+      "LastName": "Acetylene",
+      "Spouse": null,
+      "Occupation": "real",
+      "CompanyName": "est 633 1st av s",
+      "HomeAddress": {
+        "StreetNumber": "721",
+        "StreetName": "s 7th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Constant H, real est 633 1st av s, r 721 s 7th."
+    },
+    {
+      "FirstName": "George W",
+      "LastName": "Acetylene",
+      "Spouse": null,
+      "Occupation": "broker",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "712",
+        "StreetName": "8th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George W, broker, r 712 8th av s."
+    },
+    {
+      "FirstName": "Lutheran",
+      "LastName": "German",
+      "Spouse": null,
+      "Occupation": "church;",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "609",
+        "StreetName": "18th av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "German Lutheran church; r 609 18th av n."
+    },
+    {
+      "FirstName": "Joseph",
+      "LastName": "Achim",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "70",
+        "StreetName": "Cooper",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Achim Joseph, lab, b 70 Cooper."
+    },
+    {
+      "FirstName": "Blanche",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "waiter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "516",
+        "StreetName": "2d av s",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Blanche, waiter, rms 516 2d av s."
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "215",
+        "StreetName": "s 2d",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles, lab, b 215 s 2d."
+    },
+    {
+      "FirstName": "Florabelle",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "hairdresser",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1904",
+        "StreetName": "10th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Florabelle, hairdresser. b 1904 10th av s."
+    },
+    {
+      "FirstName": "Florence A",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "stenogr",
+      "CompanyName": "Matthews Adv Co",
+      "HomeAddress": {
+        "StreetNumber": "2322",
+        "StreetName": "Logan av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Florence A, stenogr Matthews Adv Co, b 2322 Logan av n."
+    },
+    {
+      "FirstName": "Frank",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "contr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2322",
+        "StreetName": "Logan av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Frank, contr, r 2322 Logan av.n."
+    },
+    {
+      "FirstName": "Frank M",
+      "LastName": "Achuff",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "G N Ry",
+      "HomeAddress": {
+        "StreetNumber": "2322",
+        "StreetName": "Logan av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Frank M, clk G N Ry, b 2322 Logan av n"
+    },
+    {
+      "FirstName": "House",
+      "LastName": "Nicollet",
+      "Spouse": null,
+      "Occupation": "blk",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2722",
+        "StreetName": "Newton av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Nicollet House blk, r 2722 Newton av n"
+    },
+    {
+      "FirstName": "Carl W",
+      "LastName": "Laura",
+      "Spouse": null,
+      "Occupation": "mach",
+      "CompanyName": "Heath-Quimby Co",
+      "HomeAddress": {
+        "StreetNumber": "1213",
+        "StreetName": "s 9th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Carl W, mach Heath-Quimby Co, b 1213 s 9th. TENTS ENAT AD. CAMPBEL MINNEAPOLIS STEAM LAUNDRY DOES T..."
+    },
+    {
+      "FirstName": "Martin",
+      "LastName": "Ackerle",
+      "Spouse": null,
+      "Occupation": "brewer",
+      "CompanyName": "Gluek's Brew Co",
+      "HomeAddress": {
+        "StreetNumber": "2114",
+        "StreetName": "ne Grand",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ackerle Martin, brewer Gluek's Brew Co, r 2114 ne Grand."
+    },
+    {
+      "FirstName": "Charles A",
+      "LastName": "Ackerlund",
+      "Spouse": null,
+      "Occupation": "barber",
+      "CompanyName": "S G Lung- strom",
+      "HomeAddress": {
+        "StreetNumber": "400",
+        "StreetName": "6th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ackerlund Charles A, barber S G Lung- strom, b 400 6th av s."
+    },
+    {
+      "FirstName": "August A",
+      "LastName": "Ackerly",
+      "Spouse": null,
+      "Occupation": "appr",
+      "CompanyName": "RB Ackerman & Co",
+      "HomeAddress": {
+        "StreetNumber": "2019",
+        "StreetName": "Fremont av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"August A, appr RB Ackerman & Co, b 2019 Fremont av n."
+    },
+    {
+      "FirstName": "Belle W",
+      "LastName": "Ackerly",
+      "Spouse": "George",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2430",
+        "StreetName": "11th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Belle W (wid George), b 2430 11th av s."
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Ackerly",
+      "Spouse": null,
+      "Occupation": "tinner",
+      "CompanyName": "F T Thompson",
+      "HomeAddress": {
+        "StreetNumber": "2422",
+        "StreetName": "Central av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles, tinner F T Thompson, r 2422 Central av.."
+    },
+    {
+      "FirstName": "David",
+      "LastName": "Ackerly",
+      "Spouse": null,
+      "Occupation": "mach",
+      "CompanyName": "opr H C Akeley Lbr Co",
+      "HomeAddress": {
+        "StreetNumber": "605",
+        "StreetName": "21st av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"David, mach opr H C Akeley Lbr Co, r 605 21st av n."
+    },
+    {
+      "FirstName": "Erick",
+      "LastName": "Ackerly",
+      "Spouse": null,
+      "Occupation": "tmstr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "827",
+        "StreetName": "29th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Erick, tmstr, r 827 29th av s. \" 44 Frank, lab, rms 204 Hennepin av."
+    },
+    {
+      "FirstName": "Jacob B",
+      "LastName": "Harry",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Pfohl & Smith",
+      "HomeAddress": {
+        "StreetNumber": "711",
+        "StreetName": "Nicollet av",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Jacob B, clk Pfohl & Smith, rms 711 Nicollet av. 66"
+    },
+    {
+      "FirstName": "Olof J",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1300",
+        "StreetName": "e 24th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Olof J, lab, r 1300 e 24th. \""
+    },
+    {
+      "FirstName": "Rudolph B",
+      "LastName": "Robert",
+      "Spouse": "R B Ackerman & Co",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2019",
+        "StreetName": "Fremont av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Rudolph B (R B Ackerman & Co), r 2019 Fremont av n."
+    },
+    {
+      "FirstName": "Nicholas",
+      "LastName": "Ackermann",
+      "Spouse": null,
+      "Occupation": "car",
+      "CompanyName": "repr C M & St P Ry",
+      "HomeAddress": {
+        "StreetNumber": "3048",
+        "StreetName": "24th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ackermann Nicholas, car repr C M & St P Ry, r 3048 24th av s."
+    },
+    {
+      "FirstName": "Theresa",
+      "LastName": "Ackermann",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "910",
+        "StreetName": "20th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Theresa, b 910 20th av n. Ackerson, see also Akeson."
+    },
+    {
+      "FirstName": "Alicia M",
+      "LastName": "Ackermann",
+      "Spouse": null,
+      "Occupation": "bkpr",
+      "CompanyName": "T C Dye Wks",
+      "HomeAddress": {
+        "StreetNumber": "807",
+        "StreetName": "15th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Alicia M, bkpr T C Dye Wks, b 807 15th av s."
+    },
+    {
+      "FirstName": "Otillia A",
+      "LastName": "Hannah",
+      "Spouse": null,
+      "Occupation": "musician",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "807",
+        "StreetName": "15th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Otillia A, musician, b 807 15th av s. Walburg, dom 111 w Grant.. \""
+    },
+    {
+      "FirstName": "Willard H",
+      "LastName": "Hannah",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "807",
+        "StreetName": "15th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Willard H, student U of M, b 807 15th av s."
+    },
+    {
+      "FirstName": "Winifred H",
+      "LastName": "Hannah",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "807",
+        "StreetName": "15th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Winifred H, student U of M, b 807 15th av s."
+    },
+    {
+      "FirstName": "Andrew J",
+      "LastName": "Ackervold",
+      "Spouse": null,
+      "Occupation": "gardener",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2439",
+        "StreetName": "lumbus av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ackervold Andrew J, gardener, r 2439 lumbus av."
+    },
+    {
+      "FirstName": "Henry J",
+      "LastName": "Ackerwold",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "411",
+        "StreetName": "e 22d",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Ackerwold Henry J, r 411 e 22d.. ADA 107 MUSIC Metropolitan Co."
+    },
+    {
+      "FirstName": "Thurlow A",
+      "LastName": "Metropolitan",
+      "Spouse": null,
+      "Occupation": "D,",
+      "CompanyName": "chimney sweep",
+      "HomeAddress": {
+        "StreetNumber": "2007",
+        "StreetName": "s 8th:",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Thurlow A D, chimney sweep, r 2007 s 8th:"
+    },
+    {
+      "FirstName": "Wm J",
+      "LastName": "Walter",
+      "Spouse": null,
+      "Occupation": "brakeman",
+      "CompanyName": "Mpls Western Ry",
+      "HomeAddress": {
+        "StreetNumber": "511",
+        "StreetName": "16th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Wm J, brakeman Mpls Western Ry, r 511 16th av s."
+    },
+    {
+      "FirstName": "Emma",
+      "LastName": "Acklund",
+      "Spouse": null,
+      "Occupation": "mach",
+      "CompanyName": "opr D Cohen & Co",
+      "HomeAddress": {
+        "StreetNumber": "252",
+        "StreetName": "Plymouth av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Acklund Emma, mach opr D Cohen & Co, b 252 Plymouth av n."
+    },
+    {
+      "FirstName": "Edward",
+      "LastName": "Acomb",
+      "Spouse": null,
+      "Occupation": "evang\u00e9list",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3325",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Acomb Edward, evang\u00e9list, r 3325 1st av s."
+    },
+    {
+      "FirstName": "Wm E",
+      "LastName": "Acomb",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "3325",
+        "StreetName": "1st av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Wm E, student U of M, b 3325 1st av s. Acres. Nathaniel J, moved to Duluth, Minn."
+    },
+    {
+      "FirstName": "Thomas",
+      "LastName": "Acomb",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "637",
+        "StreetName": "s e Erie",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Thomas, lab, r 637 s e Erie."
+    },
+    {
+      "FirstName": "Charles E.",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "slsmn",
+      "CompanyName": "Foster & Waldo",
+      "HomeAddress": {
+        "StreetNumber": "2507",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Adair Charles E. slsmn Foster & Waldo, r 2507 e Lake."
+    },
+    {
+      "FirstName": "Charles W",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": "Sweatt Mnfg Co",
+      "HomeAddress": {
+        "StreetNumber": "2507",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles W, foreman Sweatt Mnfg Co, b 2507 e Lake."
+    },
+    {
+      "FirstName": "Frederick L",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "400",
+        "StreetName": "Washn av se",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Frederick L, student U of M, b 400 Washn av se"
+    },
+    {
+      "FirstName": "Glenn S",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2507",
+        "StreetName": "e Lake",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Glenn S, student, b 2507 e Lake."
+    },
+    {
+      "FirstName": "Homer W",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Godfrey Deziel",
+      "HomeAddress": {
+        "StreetNumber": "1",
+        "StreetName": "Cen- tral av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Homer W, clk Godfrey Deziel, b 1 Cen- tral av."
+    },
+    {
+      "FirstName": "James",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "mngr",
+      "CompanyName": "Godfrey Deziel",
+      "HomeAddress": {
+        "StreetNumber": "620",
+        "StreetName": "'Gir- ard av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"James, mngr Godfrey Deziel, r 620 'Gir- ard av n."
+    },
+    {
+      "FirstName": "Mrs L",
+      "LastName": "Adair",
+      "Spouse": null,
+      "Occupation": "ydia",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "825",
+        "StreetName": "4th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Lydia, b 825 4th av s. THE HANDSTAD Easiest Running BICYCLE None but Thor Fittings used in our ..."
+    },
+    {
+      "FirstName": "George A",
+      "LastName": "Adam",
+      "Spouse": null,
+      "Occupation": "slsmn",
+      "CompanyName": "E P Stacy & Sons, Medium Grade",
+      "HomeAddress": {
+        "StreetNumber": "2528",
+        "StreetName": "ne Taylor",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Adam George A, slsmn E P Stacy & Sons, Medium Grade, r 2528 ne Taylor."
+    },
+    {
+      "FirstName": "Mnfrs",
+      "LastName": "Plaster",
+      "Spouse": null,
+      "Occupation": ")",
+      "CompanyName": "Co-Adamek Anton J, lab Mpls Thresh M Co, b. Frank Kriz, Hopkins. Ida, milliner Susan Thorington",
+      "HomeAddress": {
+        "StreetNumber": "411",
+        "StreetName": "e 22d",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Plaster Mnfrs.) Co-Adamek Anton J, lab Mpls Thresh M Co, b. Frank Kriz, Hopkins. Ida, milliner Susan..."
+    },
+    {
+      "FirstName": "Andrew",
+      "LastName": "Acklad",
+      "Spouse": null,
+      "Occupation": "tmstr",
+      "CompanyName": "Carlisle Cameron",
+      "HomeAddress": {
+        "StreetNumber": "824",
+        "StreetName": "n 5th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Andrew, tmstr Carlisle Cameron, b 824 n 5th."
+    },
+    {
+      "FirstName": "Co",
+      "LastName": "Mnfg",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "803",
+        "StreetName": "11th av s e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Mnfg Co, r 803 11th av s e."
+    },
+    {
+      "FirstName": "Harry W",
+      "LastName": "Mnfg",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "R M S",
+      "HomeAddress": {
+        "StreetNumber": "723",
+        "StreetName": "13th av s e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Harry W, clk R M S, r 723 13th av s e. J.SCHUTT & SON LOANS 340 TEMPLE COURT. FRED"
+    },
+    {
+      "FirstName": "Abner L",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "foreman",
+      "CompanyName": "Kinnard Press Co",
+      "HomeAddress": {
+        "StreetNumber": "4121",
+        "StreetName": "Lyndale av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Adams Abner L, foreman Kinnard Press Co, r 4121 Lyndale av n.."
+    },
+    {
+      "FirstName": "Ada D",
+      "LastName": "Adams",
+      "Spouse": "Alfred L",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1801",
+        "StreetName": "University av s e",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Ada D (wid Alfred L), b 1801 University av s e."
+    },
+    {
+      "FirstName": "Mrs A",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "ddie",
+      "CompanyName": "D, smstrs",
+      "HomeAddress": {
+        "StreetNumber": "26",
+        "StreetName": "s 11th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Addie D, smstrs, r 26 s 11th. Albert, r 2017 James av n. \""
+    },
+    {
+      "FirstName": "Albert",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3136",
+        "StreetName": "Portland av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Albert, carp, r 3136 Portland av.."
+    },
+    {
+      "FirstName": "Alexander",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "mach",
+      "CompanyName": "CM & St P Ry",
+      "HomeAddress": {
+        "StreetNumber": "3201",
+        "StreetName": "Minnehaha av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Alexander, mach CM & St P Ry, r 3201 Minnehaha av."
+    },
+    {
+      "FirstName": "Alexander",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "mattressmkr",
+      "CompanyName": "Satterlee",
+      "HomeAddress": {
+        "StreetNumber": "11",
+        "StreetName": "s 12th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Alexander, mattressmkr Satterlee, b 11 s 12th. Salisbury &"
+    },
+    {
+      "FirstName": "Almer J",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "tmstr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "514",
+        "StreetName": "Irving av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Almer J, tmstr, b 514 Irving av n."
+    },
+    {
+      "FirstName": "Andrew H",
+      "LastName": "Adams",
+      "Spouse": "Chamber of Com Samp- ling Bureau",
+      "Occupation": "'",
+      "CompanyName": "jr",
+      "HomeAddress": {
+        "StreetNumber": "501",
+        "StreetName": "25th av s e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Andrew H' jr (Chamber of Com Samp- ling Bureau), r 501 25th av s e."
+    },
+    {
+      "FirstName": "Anna",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": "Lina Christianson",
+      "HomeAddress": {
+        "StreetNumber": "1915",
+        "StreetName": "s 8th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Anna, smstrs Lina Christianson, b 1915 s 8th."
+    },
+    {
+      "FirstName": "Anna L",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "4121",
+        "StreetName": "Lyndale av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Anna L, b 4121 Lyndale av n."
+    },
+    {
+      "FirstName": "Annie G",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3107",
+        "StreetName": "2d av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Annie G, b 3107 2d av s."
+    },
+    {
+      "FirstName": "Arthur W",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "gardener",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "5400",
+        "StreetName": "34th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Arthur W, gardener, r 5400 34th av s."
+    },
+    {
+      "FirstName": "Caleb B",
+      "LastName": "Cedar",
+      "Spouse": null,
+      "Occupation": "janitor",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "2813",
+        "StreetName": "e 25th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Caleb B, janitor U of M, r 2813 e 25th."
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Cedar",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "Mpls Cooperage Co",
+      "HomeAddress": {
+        "StreetNumber": "2328",
+        "StreetName": "Cedar av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles, lab Mpls Cooperage Co, b 2328 Cedar av."
+    },
+    {
+      "FirstName": "Charles",
+      "LastName": "Cedar",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": "M & St LR R",
+      "HomeAddress": {
+        "StreetNumber": "514",
+        "StreetName": "Irv- ing av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles, carp M & St LR R, r 514 Irv- ing av n."
+    },
+    {
+      "FirstName": "Charles E",
+      "LastName": "Cedar",
+      "Spouse": null,
+      "Occupation": "fireman",
+      "CompanyName": "CM & St P Ry",
+      "HomeAddress": {
+        "StreetNumber": "2521",
+        "StreetName": "Bloomington av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles E, fireman CM & St P Ry, r 2521 Bloomington av.."
+    },
+    {
+      "FirstName": "Charles E",
+      "LastName": "Cedar",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "se 8th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles E, student U of M, b 923 se 8th."
+    },
+    {
+      "FirstName": "Signs",
+      "LastName": "Board",
+      "Spouse": null,
+      "Occupation": "\"Charles",
+      "CompanyName": "F, lab Shevlin Carpenter Co, SIZIQI N",
+      "HomeAddress": {
+        "StreetNumber": "523",
+        "StreetName": "s 6th",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Board Signs \"Charles F, lab Shevlin Carpenter Co, SIZIQI N rms 523 s 6th."
+    },
+    {
+      "FirstName": "Charles H.",
+      "LastName": "Board",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": "E E Peterson Sign Co",
+      "HomeAddress": {
+        "StreetNumber": "1915",
+        "StreetName": "s 8th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles H. painter E E Peterson Sign Co, r 1915 s 8th."
+    },
+    {
+      "FirstName": "Charles J",
+      "LastName": "Board",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "514",
+        "StreetName": "Irving av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles J, carp, r 514 Irving av n."
+    },
+    {
+      "FirstName": "Charles W",
+      "LastName": "Board",
+      "Spouse": null,
+      "Occupation": "carp",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3201",
+        "StreetName": "Minnehaha av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Charles W, carp, b 3201 Minnehaha av."
+    },
+    {
+      "FirstName": "Clara M",
+      "LastName": "Board",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "229",
+        "StreetName": "8th av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Clara M, student U of M, b 229 8th av"
+    },
+    {
+      "FirstName": "Mrs D",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "ora,",
+      "CompanyName": "tchr",
+      "HomeAddress": {
+        "StreetNumber": "1415",
+        "StreetName": "Portland av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Dora, tchr, b 1415 Portland av."
+    },
+    {
+      "FirstName": "Edna",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "Mpls School of Music",
+      "HomeAddress": {
+        "StreetNumber": "2014",
+        "StreetName": "3d av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Edna, student Mpls School of Music, b 2014 3d av s."
+    },
+    {
+      "FirstName": "Edward H",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "752",
+        "StreetName": "Franklin av e",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Edward H, painter, r 752 Franklin av e."
+    },
+    {
+      "FirstName": "Elizabeth E",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "NE Furn & C Co",
+      "HomeAddress": {
+        "StreetNumber": "916",
+        "StreetName": "3d av S",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Elizabeth E, clk NE Furn & C Co, b 916 3d av S."
+    },
+    {
+      "FirstName": "Elizabeth J",
+      "LastName": "Stemm",
+      "Spouse": "Andrew H",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3107",
+        "StreetName": "2d",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Elizabeth J (wid Andrew H), r 3107 2d"
+    },
+    {
+      "FirstName": "Emroy C",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "tchr",
+      "CompanyName": "North High school",
+      "HomeAddress": {
+        "StreetNumber": "2110",
+        "StreetName": "Fremont av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Emroy C, tchr North High school, b 2110 Fremont av n."
+    },
+    {
+      "FirstName": "Ernest E",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "glazier",
+      "CompanyName": "Pittsburgh Plate Glass Co",
+      "HomeAddress": {
+        "StreetNumber": "2021",
+        "StreetName": "n 4th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Ernest E, glazier Pittsburgh Plate Glass Co, r 2021 n 4th."
+    },
+    {
+      "FirstName": "Eugene D",
+      "LastName": "Stemm",
+      "Spouse": null,
+      "Occupation": "clk",
+      "CompanyName": "Wm Donaldson & Co",
+      "HomeAddress": {
+        "StreetNumber": "5",
+        "StreetName": "e 17th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Eugene D, clk Wm Donaldson & Co, b 5 e 17th. \""
+    },
+    {
+      "FirstName": "Frederick T",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "expman",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "711",
+        "StreetName": "1st av S",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Frederick T, expman, b 711 1st av S."
+    },
+    {
+      "FirstName": "Freeman",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "oiler",
+      "CompanyName": "Cons B Mill",
+      "HomeAddress": {
+        "StreetNumber": "117",
+        "StreetName": "ne 2d",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Freeman, oiler Cons B Mill, r 117 ne 2d. George, car repr CM & St P Ry, b 3201 Minnehaha av. \""
+    },
+    {
+      "FirstName": "George C",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "solr",
+      "CompanyName": "Conroy & Crotty",
+      "HomeAddress": {
+        "StreetNumber": "47",
+        "StreetName": "s 8th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George C, solr Conroy & Crotty, r 47 s 8th."
+    },
+    {
+      "FirstName": "George E",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "trimmer",
+      "CompanyName": "Nelson-Frey Co",
+      "HomeAddress": {
+        "StreetNumber": "313",
+        "StreetName": "se 8th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George E, trimmer Nelson-Frey Co, r 313 se 8th."
+    },
+    {
+      "FirstName": "George H",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "porter",
+      "CompanyName": "G N Ry",
+      "HomeAddress": {
+        "StreetNumber": "1911",
+        "StreetName": "Washn av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George H, porter G N Ry, r 1911 Washn av s."
+    },
+    {
+      "FirstName": "George W",
+      "LastName": "Eugene",
+      "Spouse": null,
+      "Occupation": "tel",
+      "CompanyName": "opr CE Lewis Co",
+      "HomeAddress": {
+        "StreetNumber": "3045",
+        "StreetName": "\" Pillsbury av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"George W, tel opr CE Lewis Co, r 3045 \" Pillsbury av. Grover, lab H C Akeley Lbr Co, b 2017 James a..."
+    },
+    {
+      "FirstName": "Guy W",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "pressfeeder",
+      "CompanyName": "Leighton Bros",
+      "HomeAddress": {
+        "StreetNumber": "1812",
+        "StreetName": "Bryant av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Adams Guy W, pressfeeder Leighton Bros, b 1812 Bryant av n."
+    },
+    {
+      "FirstName": "Harriet F",
+      "LastName": "Adams",
+      "Spouse": "Samuel H",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "224",
+        "StreetName": "s 10th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Harriet F (wid Samuel H), r 224 s 10th."
+    },
+    {
+      "FirstName": "Harry S",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "fireman",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "224",
+        "StreetName": "s 10th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Harry S, fireman, b 224 s 10th. \" Helen, student U of M, b 923 s e 8th."
+    },
+    {
+      "FirstName": "Henry",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2003",
+        "StreetName": "James av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Henry, b 2003 James av n."
+    },
+    {
+      "FirstName": "Henry",
+      "LastName": "Adams",
+      "Spouse": null,
+      "Occupation": "trav",
+      "CompanyName": "agt A V Cleland",
+      "HomeAddress": {
+        "StreetNumber": "2014",
+        "StreetName": "3d av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Henry, trav agt A V Cleland, r 2014 3d av s."
+    },
+    {
+      "FirstName": "Henry R",
+      "LastName": "Henry",
+      "Spouse": null,
+      "Occupation": "firepipe",
+      "CompanyName": "insptr city water wks",
+      "HomeAddress": {
+        "StreetNumber": "1710",
+        "StreetName": "Western av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Henry R, firepipe insptr city water wks, r 1710 Western av."
+    },
+    {
+      "FirstName": "Hugh A",
+      "LastName": "Henry",
+      "Spouse": null,
+      "Occupation": "messr",
+      "CompanyName": "The Economy",
+      "HomeAddress": {
+        "StreetNumber": "38",
+        "StreetName": "s 9th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Hugh A, messr The Economy, b 38 s 9th."
+    },
+    {
+      "FirstName": "Isaac M",
+      "LastName": "Henry",
+      "Spouse": null,
+      "Occupation": "trav",
+      "CompanyName": "agt",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "se 8th",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Isaac M, trav agt, r 923 se 8th."
+    },
+    {
+      "FirstName": "Isaac W",
+      "LastName": "Henry",
+      "Spouse": null,
+      "Occupation": "painter",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2821",
+        "StreetName": "3d av S",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Isaac W, painter, r 2821 3d av S."
+    },
+    {
+      "FirstName": "James",
+      "LastName": "Henry",
+      "Spouse": null,
+      "Occupation": "feeder",
+      "CompanyName": "Harrison & Smith Co",
+      "HomeAddress": {
+        "StreetNumber": "3201",
+        "StreetName": "Minnehaha av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"James, feeder Harrison & Smith Co, b 3201 Minnehaha av. \""
+    },
+    {
+      "FirstName": "Jennie R",
+      "LastName": "James",
+      "Spouse": null,
+      "Occupation": "smstrs",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "2315",
+        "StreetName": "n e Jackson",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Jennie R, smstrs, b 2315 n e Jackson."
+    },
+    {
+      "FirstName": "John",
+      "LastName": "James",
+      "Spouse": null,
+      "Occupation": "lap",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "409",
+        "StreetName": "14th av se",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John lap, rms 409 14th av se."
+    },
+    {
+      "FirstName": "John P",
+      "LastName": "James",
+      "Spouse": null,
+      "Occupation": "H,",
+      "CompanyName": "janitor St Joseph church",
+      "HomeAddress": {
+        "StreetNumber": "1127",
+        "StreetName": "n 4th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"John P H, janitor St Joseph church, b 1127 n 4th."
+    },
+    {
+      "FirstName": "Julia O",
+      "LastName": "James",
+      "Spouse": null,
+      "Occupation": "tchr",
+      "CompanyName": "Douglas school",
+      "HomeAddress": {
+        "StreetNumber": "327",
+        "StreetName": "s 10th J Lester",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Julia O, tchr Douglas school, b 327 s 10th J Lester, collr, b 2623 Dupont av n. ADAMS J Q & CO (JOH..."
+    },
+    {
+      "FirstName": "Levi G",
+      "LastName": "John",
+      "Spouse": "J H. Martin & Co",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "422",
+        "StreetName": "James av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Levi G (J H. Martin & Co), r 422 James av n."
+    },
+    {
+      "FirstName": "Lillian",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3126",
+        "StreetName": "4th av s",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Lillian, b 3126 4th av s."
+    },
+    {
+      "FirstName": "Mabel",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "s e 8th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mabel, student U of M, b 923 s e 8th."
+    },
+    {
+      "FirstName": "Mrs M",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "argaret",
+      "CompanyName": "E",
+      "HomeAddress": {
+        "StreetNumber": "2017",
+        "StreetName": "James av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mrs Margaret E. r 2017 James av n."
+    },
+    {
+      "FirstName": "Mary",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1700",
+        "StreetName": "Clinton av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Mary, student, b 1700 Clinton av."
+    },
+    {
+      "FirstName": "Matilda",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "laundress",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "252",
+        "StreetName": "7th av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Matilda, laundress, b 252 7th av n."
+    },
+    {
+      "FirstName": "Milo A",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "contr",
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "3016",
+        "StreetName": "Pleasant av",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Milo A, contr, r 3016 Pleasant av."
+    },
+    {
+      "FirstName": "Noah",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "lumber",
+      "CompanyName": "1229 Guaranty bldg",
+      "HomeAddress": {
+        "StreetNumber": "1216",
+        "StreetName": "Logan av n",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Noah, lumber 1229 Guaranty bldg, r 1216 Logan av n."
+    },
+    {
+      "FirstName": "Olive A",
+      "LastName": "John",
+      "Spouse": "Oliver W",
+      "Occupation": null,
+      "CompanyName": null,
+      "HomeAddress": {
+        "StreetNumber": "1830",
+        "StreetName": "Columbus av",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Olive A (wid Oliver W), b 1830 Columbus av."
+    },
+    {
+      "FirstName": "Paul",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "student",
+      "CompanyName": "U of M",
+      "HomeAddress": {
+        "StreetNumber": "923",
+        "StreetName": "se 8th",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Paul, student U of M, b 923 se 8th."
+    },
+    {
+      "FirstName": "Porter",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "lab",
+      "CompanyName": "H C Akeley Lbr Co",
+      "HomeAddress": {
+        "StreetNumber": "2017",
+        "StreetName": "James av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Porter, lab H C Akeley Lbr Co, b 2017 James av n."
+    },
+    {
+      "FirstName": "Ray H",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "lab.",
+      "CompanyName": "Bovey-DeLaittre Lbr Co",
+      "HomeAddress": {
+        "StreetNumber": "3919",
+        "StreetName": "Washn av n",
+        "ResidenceIndicator": "b"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Ray H, lab. Bovey-DeLaittre Lbr Co, b 3919 Washn av n."
+    },
+    {
+      "FirstName": "Reuben H",
+      "LastName": "John",
+      "Spouse": null,
+      "Occupation": "bkpr",
+      "CompanyName": "T B Walker",
+      "HomeAddress": {
+        "StreetNumber": "3126",
+        "StreetName": "4th av s",
+        "ResidenceIndicator": "r"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "\"Reuben H, bkpr T B Walker, r 3126 4th av s. av."
+    },
+    {
+      "FirstName": "Synod",
+      "LastName": "Presbyterian",
+      "Spouse": null,
+      "Occupation": "of",
+      "CompanyName": "Minn",
+      "HomeAddress": {
+        "StreetNumber": "2",
+        "StreetName": "620% Nicollet av",
+        "ResidenceIndicator": "rms"
+      },
+      "source_file": "minneapolis_1900_batch_1.json",
+      "raw_entry": "Presbyterian Synod of Minn, rms 2 620% Nicollet av. 501 CRUSHED LIMESTONE LANGDON STONE Co NY. LIFE ..."
+    }
+  ]
+}

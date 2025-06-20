@@ -1,0 +1,250 @@
+FirstName,LastName,Spouse,Occupation,CompanyName,source_file,raw_entry,StreetNumber,StreetName,ResidenceIndicator
+Christian C,Aabel,,porter,Geo R Newell & Co,minneapolis_1900_batch_1.json,"Aabel Christian C, porter Geo R Newell & Co, r 1329 Irving av n..",1329,Irving av n,r
+Arne,Aaberg,,,,minneapolis_1900_batch_1.json,"Aaberg Arne, b 2507 Riverside av.",2507,Riverside av,b
+Arne O,Aaberg,,student,U of M,minneapolis_1900_batch_1.json,"""Arne O, student U of M, b 1600 s e 4th.",1600,s e 4th,b
+Melkior K,Aaberg,,student,UC Sem,minneapolis_1900_batch_1.json,"""Melkior K, student UC Sem, rms 2401 Butler pl.",2401,Butler pl,rms
+Aslak A,Aaby,,millwright,,minneapolis_1900_batch_1.json,"Aaby Aslak A, millwright, r 1810 s 5th.",1810,s 5th,r
+Caroline,Aaby,,smstrs,,minneapolis_1900_batch_1.json,"""Caroline, smstrs, b 110 University av ne. RT CÓ",110,University av ne,b
+Henry C,Aaby,,cond,TCRT Co,minneapolis_1900_batch_1.json,"""Henry C, cond TCRT Co, b 110 Uni- versity av ne. Uni-",110,Uni- versity av ne,b
+Louis C,Aaby,,cond,TCRT Co,minneapolis_1900_batch_1.json,"""Louis C, cond TCRT Co, b 110 versity av ne. Aagaard, see also Aargaard.",110,versity av ne,b
+Elsie K,Aaby,Rasmus N,,,minneapolis_1900_batch_1.json,"""Elsie K (wid Rasmus N), r 1531 e 18th.",1531,e 18th,r
+George N,Aaby,,cutter,Yerxa Bros & Co,minneapolis_1900_batch_1.json,"""George N, cutter Yerxa Bros & Co, b 1531 e 18th.",1531,e 18th,b
+Paul N,Aaby,,bkpr,Foster & Waldo,minneapolis_1900_batch_1.json,"""Paul N, bkpr Foster & Waldo, r 1522 e 18th.",1522,e 18th,r
+Bert O.,Aahjem,,waiter,103 Washn. av s,minneapolis_1900_batch_1.json,"Aahjem Bert O. waiter 103 Washn. av s, r 307 g 5th. Aaker, see also Acker and Aker.",307,g 5th,r
+Andrew L,Aahjem,,creamery,1628 s 5th,minneapolis_1900_batch_1.json,"""Andrew L, creamery 1628 s 5th, r 1528 e 18th.",1528,e 18th,r
+Charles,Aahjem,,cook,601 Washn av s,minneapolis_1900_batch_1.json,"""Charles, cook 601 Washn av s, rms 800 s 6th. ABB",800,s 6th,rms
+Anna B,Aalbu,,stenogr,Mpls Brew Co,minneapolis_1900_batch_1.json,"Aalbu Anna B, stenogr Mpls Brew Co, b 242 20th av n.",242,20th av n,b
+Oscar S,Aalbu,,bartndr,,minneapolis_1900_batch_1.json,"""Oscar S, bartndr, r 242 20th av n.",242,20th av n,r
+Christen,Aalund,,bottler,Jos Schlitz Brew Co,minneapolis_1900_batch_1.json,"Aalund Christen, bottler Jos Schlitz Brew Co, r 604 20th av s.",604,20th av s,r
+Dorothea H,Aalund,,tchr,Longfellow,minneapolis_1900_batch_1.json,"""Dorothea H, tchr Longfellow b 604 20th av s. school,",604,20th av s,b
+Alfred,Aamodt,,clk,M H Aamodt,minneapolis_1900_batch_1.json,"Aamodt Alfred, clk M H Aamodt, r 1015 Talmadge av s e.",1015,Talmadge av s e,r
+Anna S,Aamodt,,smstrs,Tucker & Savage,minneapolis_1900_batch_1.json,"""Anna S, smstrs Tucker & Savage, b 923 14th av s e.",923,14th av s e,b
+John,Aamodt,,clk,SE Olson Co,minneapolis_1900_batch_1.json,"""John, clk SE Olson Co, b 923 14th av se.",923,14th av se,b
+Nels C,Aamodt,,foreman,Larson & Nelander,minneapolis_1900_batch_1.json,"""Nels C, foreman Larson & Nelander, r 1082 17th av s e.",1082,17th av s e,r
+Sarah,Aamodt,Nels C,,,minneapolis_1900_batch_1.json,"""Sarah (wid Nels C), r 2014 15th av's.",2014,15th av's,r
+John,Aaram,,lab,,minneapolis_1900_batch_1.json,"Aaram John, lab, b 2430 n 4th.",2430,n 4th,b
+Bernhart J,Aargaard,,clk,Brown Bros Mer Co,minneapolis_1900_batch_1.json,"""Bernhart J, clk Brown Bros Mer Co, b 2406 Riverside av.",2406,Riverside av,b
+Charles J,Aaronson,,lab,,minneapolis_1900_batch_1.json,"Aaronson Charles J, lab, rms 521 12th av s. Aarseth, see also Arseth.",521,12th av s,rms
+Rey K,Aaronson,,stage,mech Metropolitan the- atre,minneapolis_1900_batch_1.json,"""Rey K, stage mech Metropolitan the- atre, rms 26 s 6th. Aarsted, see Austed and Oustad.",26,s 6th,rms
+John A,Aarvold,,lab,C M & St P Ry shops,minneapolis_1900_batch_1.json,"Aarvold John A, lab C M & St P Ry shops, r 3232 Longfellow av.",3232,Longfellow av,r
+Gina,Aarvold,,ironer,Franklin Steam Laundry,minneapolis_1900_batch_1.json,"""Gina, ironer Franklin Steam Laundry, b 1927 14th av s.",1927,14th av s,b
+Elling J,Aase,,tailor,103 s 5th,minneapolis_1900_batch_1.json,"Aase Elling J, tailor 103 s 5th, r 2200 s 7%.",2200,s 7%,r
+George,Aase,,nurse,,minneapolis_1900_batch_1.json,"""George, nurse, b 2200 $ 72.",2200,$ 72,b
+Alfred,Aasen,Christian,painter,,minneapolis_1900_batch_1.json,"Aasen Alfred, painter, b 3200 19th av s. 6 Anne (wid Christian) r 3200 19th av s.",3200,19th av s,b
+Christian O,Aasgaard,,policeman,,minneapolis_1900_batch_1.json,"Aasgaard Christian O, policeman, r 2308 s 8th.",2308,s 8th,r
+John A,Aasgaard,,student,U C Sem,minneapolis_1900_batch_1.json,"""John A, student U C Sem, rms 804 22d av s. Abar, see also Aber.",804,22d av s,rms
+Joseph,Abaud,,peddler,,minneapolis_1900_batch_1.json,"Abaud Joseph, peddler, rms 307 ne Main.",307,ne Main,rms
+Walter,Abaud,,lab,,minneapolis_1900_batch_1.json,"""Walter, lab, b 225 28th av n.",225,28th av n,b
+Edward J,Abbaticchio,,ball,player,minneapolis_1900_batch_1.json,"Abbaticchio Edward J, ball player, b 3201 Nicollet av.",3201,Nicollet av,b
+Rocco,Abbato,,musician,,minneapolis_1900_batch_1.json,"Abbato Rocco, musician, r 56 Central av.",56,Central av,r
+Edward A,Abbett,,collr,Co-Op Ldry Co,minneapolis_1900_batch_1.json,"Abbett Edward A, collr Co-Op Ldry Co, r 2921 Clinton av.",2921,Clinton av,r
+Elza S,Abbett,,painter,,minneapolis_1900_batch_1.json,"""Elza S, painter, r 2915 Clinton av.",2915,Clinton av,r
+Louis A,Abbett,,tray,agt,minneapolis_1900_batch_1.json,"""Louis A, tray agt, b 3046 Bloomington av. MORTGAGES Made on improved property in Minneapolis AAKER ...",3046,Bloomington av,b
+Iver L,Canned,I L Aaker & Co,,,minneapolis_1900_batch_1.json,"""Iver L (I L Aaker & Co), r 1815 17th R. M. NEWPORT & SON, av s.",1815,17th R,r
+Minnie,Abbett,,clk,LymanEliel Drug Co,minneapolis_1900_batch_1.json,"Abbett Minnie, clk LymanEliel Drug Co, b 2915 Clinton av..",2915,Clinton av,b
+Smith,Abbett,,driver,"Wells, Fargo & Co Ex- press",minneapolis_1900_batch_1.json,"""Smith, driver Wells, Fargo & Co Ex- press, b 2915 Clinton av.",2915,Clinton av,b
+Zoe L,Abbett,,clk,,minneapolis_1900_batch_1.json,"""Zoe L, clk, b 2915 Clinton av.",2915,Clinton av,b
+Luther,Abbey,,photogr,SE Olson Co,minneapolis_1900_batch_1.json,"Abbey Luther, photogr SE Olson Co, r 1125 3d av S.",1125,3d av S,r
+Richard,Abbey,,lab,,minneapolis_1900_batch_1.json,"""Richard, lab, r 816 s 5th.",816,s 5th,r
+Albert A,Abbler,,supt,Fire-Proof Door Co,minneapolis_1900_batch_1.json,"""Albert A, supt Fire-Proof Door Co, r 2650 Pleasant av. ABBOTT AMOS W, PHYSICIAN 21 S 10th, r same, ...",2650,Pleasant av,r
+Arthur R,Abbler,,eng,W I Gray & Co,minneapolis_1900_batch_1.json,"""Arthur R, eng W I Gray & Co, b 617 se Delaware.",617,se Delaware,b
+Charles L,Abbler,,letter,carrier,minneapolis_1900_batch_1.json,"""Charles L, letter carrier, r 3017 Oakland av.",3017,Oakland av,r
+Claude U,Abbler,,student,U of M,minneapolis_1900_batch_1.json,"""Claude U, student U of M, r 1228 ne Adams.",1228,ne Adams,r
+Edwin B,Food,,student,,minneapolis_1900_batch_1.json,"""Edwin B, student, b 1120 Chestnut av.",1120,Chestnut av,b
+Frank E,Eliza,,clk,Lillibridge-Bremner Fac- _tory,minneapolis_1900_batch_1.json,"""Frank E, clk Lillibridge-Bremner Fac- _tory, r 3728 Bloomington av.",3728,Bloomington av,r
+George D,Eliza,,painter,JR Wagner,minneapolis_1900_batch_1.json,"""George D, painter JR Wagner, b 3225 "" 5th av s.",3225,""" 5th av s",b
+Glenn B,Eliza,,hostler,,minneapolis_1900_batch_1.json,"""Glenn B, hostler, b 2914 1st av s.",2914,1st av s,b
+Hiram T,Eliza,,,,minneapolis_1900_batch_1.json,"""Hiram T, r 2914 1st av s.",2914,1st av s,r
+Howard S,Eliza,,"lawyer,",US Master in Chancery 10 Federal bldg,minneapolis_1900_batch_1.json,"""Howard S, lawyer, US Master in Chancery 10 Federal bldg, r 902 s e 6th.",902,s e 6th,r
+Lee W,John,,mngr,Dealers' Fuel Co,minneapolis_1900_batch_1.json,"""Lee W, mngr Dealers' Fuel Co, r 2915 1st av s. "" Louisa A, moved to Duluth, Minn.",2915,1st av s,r
+Luther T,John,,mnfrs,agt 310 Kasota bldg,minneapolis_1900_batch_1.json,"""Luther T, mnfrs agt 310 Kasota bldg, r 138 Laurel av. 41 "" 41",138,Laurel av,r
+Sarah E,Mabel,Joseph D,,,minneapolis_1900_batch_1.json,"""Sarah E (wid Joseph D), b 3225 5th av S.",3225,5th av S,b
+Wm P,Mabel,,student,U of M,minneapolis_1900_batch_1.json,"""Wm P, student U of M. b 1300 s e 5th.",1300,s e 5th,b
+Joseph,Abboud,,peddler,,minneapolis_1900_batch_1.json,"Abboud Joseph, peddler, rms 307 ne Main.",307,ne Main,rms
+Sarah M,Abby,,appr,M S Stabler,minneapolis_1900_batch_1.json,"Abby Sarah M, appr M S Stabler, b 214 6th av n e. ABDALLE MAOWD, GROCER 311 N E Main, r same.",214,6th av n e,b
+Frank E,Abear,John,clk,N S Clothing Co,minneapolis_1900_batch_1.json,"Abear Frank E, clk N S Clothing Co, r 29 s 12th. "" Ralph W, clk SE Olson Co, b 29 s 12th. Abel, see ...",29,s 12th,r
+George,Abel,,wireman,M V Tel Co,minneapolis_1900_batch_1.json,"Abel George, wireman M V Tel Co, r 1507 e 25th.",1507,e 25th,r
+Gustave,Abel,,tmstr,,minneapolis_1900_batch_1.json,"""Gustave, tmstr, b 817 9th av s e.",817,9th av s e,b
+Honorius L,Abel,Abel & Co,,,minneapolis_1900_batch_1.json,"""Honorius L (Abel & Co), r 1303 n e 5th.",1303,n e 5th,r
+Margaret,Abel,Narcisse S,,,minneapolis_1900_batch_1.json,"""Margaret (wid Narcisse S), b 1430 ne 6th.",1430,ne 6th,b
+Mary L,Abel,,smstrs,Lina Christianson,minneapolis_1900_batch_1.json,"""Mary L, smstrs Lina Christianson, b 1303 n e 5th.",1303,n e 5th,b
+Paul E,Abel,,student,,minneapolis_1900_batch_1.json,"""Paul E, student, b 1303 n e 5th.",1303,n e 5th,b
+Rosina,Abel,Herman,,,minneapolis_1900_batch_1.json,"""Rosina (wid Herman), b 2007 s 9th..",2007,s 9th,b
+Simeon E,Abel,"Honorius L Abel, Samuel Emond",clk,,minneapolis_1900_batch_1.json,"""Simeon E, clk, r 1430 n e 6th. r 2115 Aldrich av s. ""& Co (Honorius L Abel, Samuel Emond). grocers ...",1430,n e 6th,r
+Ace P.,Abell,,clk,"of probate court, lawyer 302 Bank of Com bldg",minneapolis_1900_batch_1.json,"Abell Ace P. clk of probate court, lawyer 302 Bank of Com bldg , r 3220 Columbus",3220,Columbus,r
+Cerelda A,Abell,James,,,minneapolis_1900_batch_1.json,"""Cerelda A (wid James), b 3220 Columbus av. av.",3220,Columbus av,b
+Grace C,Abell,,,,minneapolis_1900_batch_1.json,"""Grace C, b 301 e Lake,",301,e Lake,b
+Henry M,Abell,,trav,agt Smith & Zimmer,minneapolis_1900_batch_1.json,"""Henry M, trav agt Smith & Zimmer, r 301 e Lake.",301,e Lake,r
+Petrina M,Abels,,smstrs,S R Escott,minneapolis_1900_batch_1.json,"""Petrina M, smstrs S R Escott, rms 2608 s 8th.",2608,s 8th,rms
+Abel,Abelson,,carp,"Johnson, Smith & Co",minneapolis_1900_batch_1.json,"Abelson Abel, carp Johnson, Smith & Co, r 2939 Colfax av n.",2939,Colfax av n,r
+Abel,Abelson,,lab,,minneapolis_1900_batch_1.json,"""Abel, lab, b 214 Washn av n.",214,Washn av n,b
+Robert E,Aberl,,foreman,Northern Paint Co,minneapolis_1900_batch_1.json,"Aberl Robert E, foreman Northern Paint Co, r 1100 ne Adams.",1100,ne Adams,r
+Assn,Life,,,,minneapolis_1900_batch_1.json,"Life Assn, b 527 Humboldt av n.",527,Humboldt av n,b
+Mathias,Life,,tmstr,,minneapolis_1900_batch_1.json,"""Mathias, tmstr, r 527 Humboldt av n.",527,Humboldt av n,r
+Frank S,Abernethy,,slsmn,Emerson & Hall,minneapolis_1900_batch_1.json,"Abernethy Frank S, slsmn Emerson & Hall, b 2824 Penn av n.",2824,Penn av n,b
+Robert,Abernethy,,fuel,119 e Lake,minneapolis_1900_batch_1.json,"""Robert, fuel 119 e Lake, rms 2901 Clinton Aberts, see Ebert. av.",2901,Clinton Aberts,rms
+John,Ablat,,lab,,minneapolis_1900_batch_1.json,"Ablat John, lab, b 223 s 2d.",223,s 2d,b
+Albert F,Abraham,,lab,HC Akeley Lbr Co,minneapolis_1900_batch_1.json,"Abraham Albert F, lab HC Akeley Lbr Co, b 1905 n 3d.",1905,n 3d,b
+August,Abraham,,lab,G N Ry,minneapolis_1900_batch_1.json,"""August, lab G N Ry, r 1905 n 3d.",1905,n 3d,r
+David C,Abraham,,trav,agt,minneapolis_1900_batch_1.json,"""David C, trav agt, r 2541 Harriet av.",2541,Harriet av,r
+Delia,Abraham,,opr,N S Shoe Co,minneapolis_1900_batch_1.json,"""Delia, opr N S Shoe Co, b 1900 6th av n.",1900,6th av n,b
+Eliza A,Abraham,,,,minneapolis_1900_batch_1.json,"""Eliza A, b 2703 Lake of the Isles boul.",2703,Lake of the Isles boul,b
+Ferdinand,Abraham,,car,repr,minneapolis_1900_batch_1.json,"""Ferdinand, car repr, r 1900 6th av n.",1900,6th av n,r
+Herman,Abraham,,lab,Backus-Brooks Co,minneapolis_1900_batch_1.json,"""Herman, lab Backus-Brooks Co, r 441 19th av n e.",441,19th av n e,r
+John A,Abraham,,bartndr,25 s 4th,minneapolis_1900_batch_1.json,"""John A, bartndr 25 s 4th, r 18 s 12th.",18,s 12th,r
+Joseph C,Abraham,,clk,Roger Charlton,minneapolis_1900_batch_1.json,"""Joseph C, clk Roger Charlton, b 2541 Harriet av. WHEN YOU GET READY to go to Housekeeping bring",2541,Harriet av,b
+Mary T,Abraham,,,,minneapolis_1900_batch_1.json,"Abraham Mary T, b 2703 Lake of the Isles boul",2703,Lake of the Isles boul,b
+Max,Abraham,,mnfrs,agt 614 Boston blk,minneapolis_1900_batch_1.json,"""Max, mnfrs agt 614 Boston blk, r 1807 3d av s.",1807,3d av s,r
+Roland R,Abraham,,clk,,minneapolis_1900_batch_1.json,"""Roland R, clk, b 2541 Harriet av.",2541,Harriet av,b
+Sigmund,Abraham,,clk,Benjamin Jacobs,minneapolis_1900_batch_1.json,"""Sigmund, clk Benjamin Jacobs, b 1807 3d av s.",1807,3d av s,b
+Sydney D,Abraham,,pharmacist,B L Levy,minneapolis_1900_batch_1.json,"""Sydney D, pharmacist B L Levy, r 2541 Harriet av.",2541,Harriet av,r
+Isaac,Abrahams,,second,hand goods 14 s 2d,minneapolis_1900_batch_1.json,"Abrahams Isaac, second hand goods 14 s 2d, r 256 13th av s.",256,13th av s,r
+Adolph,Abrahamson,,foreman,,minneapolis_1900_batch_1.json,"Abrahamson Adolph, foreman, r 3017 47th",3017,47th,r
+Algott L,Abrahamson,,clk,Thomas Gardiner,minneapolis_1900_batch_1.json,"""Algott L, clk Thomas Gardiner, b 821 29th av s.",821,29th av s,b
+Andrew,Abrahamson,,waiter,1317 Washn av s,minneapolis_1900_batch_1.json,"""Andrew, waiter 1317 Washn av s, rms 220 12th av S.",220,12th av S,rms
+Andrew R,Abrahamson,,patternmkr,McCartney Bros,minneapolis_1900_batch_1.json,"""Andrew R, patternmkr McCartney Bros, r 2936 16th av s.",2936,16th av s,r
+Charles A,Abrahamson,,mason,,minneapolis_1900_batch_1.json,"""Charles A,, mason, b 1601 s 5th.",1601,s 5th,b
+Charles J,Abrahamson,,lab,,minneapolis_1900_batch_1.json,"""Charles J, lab, b 1806 e 31st.",1806,e 31st,b
+Charles L,Abrahamson,,broommkr,JP Lyons,minneapolis_1900_batch_1.json,"""Charles L, broommkr JP Lyons, b 821 29th av S...",821,29th av S,b
+Emil,Abrahamson,,;,cabtmkr Otto Witte,minneapolis_1900_batch_1.json,"""Emil; cabtmkr Otto Witte, r 1806 s 31st. Frederick, clk John W Thomas & Co, b 1001 e Lake.",1806,s 31st,r
+Gustaf,Abrahamson,,mason,,minneapolis_1900_batch_1.json,"""Gustaf, mason, r 821 29th av s.",821,29th av s,r
+Harry,Abrahamson,,painter,,minneapolis_1900_batch_1.json,"""Harry, painter, b 1806 e 31st.",1806,e 31st,b
+Mrs J,Abrahamson,,ohanna,,minneapolis_1900_batch_1.json,"""Mrs Johanna, b 2321 e 22d.",2321,e 22d,b
+John O,Abrahamson,,carp,,minneapolis_1900_batch_1.json,"""John O, carp, b 1806 e 31st.",1806,e 31st,b
+Martin E,Abrahamson,,jeweler,Mpls Jewelry Mnfg Co,minneapolis_1900_batch_1.json,"""Martin E, jeweler Mpls Jewelry Mnfg Co, r 2448 14th av s.",2448,14th av s,r
+Mrs M,Abrahamson,,"ary,",laundress,minneapolis_1900_batch_1.json,"""Mrs Mary, laundress, r 259 6th av n.",259,6th av n,r
+Ole,Abrahamson,,carp,,minneapolis_1900_batch_1.json,"""Ole, carp, r 3436 19th av s.",3436,19th av s,r
+Oscar,Abrahamson,,carp,,minneapolis_1900_batch_1.json,"""Oscar, carp. r 2321 25th av s.",2321,25th av s,r
+Peter,Abrahamson,,glazier,Bardwell-Robinson Co,minneapolis_1900_batch_1.json,"""Peter, glazier Bardwell-Robinson Co. b 604 25th av n.",604,25th av n,b
+Robert S,Abrahamson,,driver,CO Goodlund,minneapolis_1900_batch_1.json,"""Robert S, driver CO Goodlund, b 2936 16th av s. "" Sophia, smstrs, rms flat 3 55 Eastman av.",2936,16th av s,b
+Sophia,Abrahamson,Charles T,,,minneapolis_1900_batch_1.json,"""Sophia (wid Charles T), r 1001 e Lake.",1001,e Lake,r
+Swan,Abrahamson,,lab,,minneapolis_1900_batch_1.json,"""Swan, lab, r 2916 Pillsbury av. "" Swan, janitor N Y Life bldg, r 923 13th av s.",2916,Pillsbury av,r
+Alice M,Abram,,clk,Yerxa Bros & Co,minneapolis_1900_batch_1.json,"Abram Alice M, clk Yerxa Bros & Co, b 746 e 18th.",746,e 18th,b
+John M,Abram,,brander,Cons Milling Co,minneapolis_1900_batch_1.json,"""John M, brander Cons Milling Co, r 3122 23d av s.",3122,23d av s,r
+Joseph,Abram,,foreman,Cons Milling Co,minneapolis_1900_batch_1.json,"""Joseph, foreman Cons Milling Co, r 746 e 18th.",746,e 18th,r
+Harris,Abramowitz,,peddler,,minneapolis_1900_batch_1.json,"Abramowitz Harris, peddler, r 418 6th av n.",418,6th av n,r
+Philip M,Abramowitz,,student,,minneapolis_1900_batch_1.json,"""Philip M, student, b 418 6th av n.",418,6th av n,b
+Rose,Abramowitz,,smstrs,,minneapolis_1900_batch_1.json,"""Rose, smstrs, b 418 6th av n.",418,6th av n,b
+Elizabeth,Abrams,,clk,Jonas Abrams,minneapolis_1900_batch_1.json,"""Elizabeth, clk Jonas Abrams, b 806 Lyn- dale pl.",806,Lyn- dale pl,b
+James L,Abrams,,letter,carrier,minneapolis_1900_batch_1.json,"""James L, letter carrier, r 2400 Irving av n.",2400,Irving av n,r
+House,Storage,,,,minneapolis_1900_batch_1.json,"Storage House, r 3213 Aldrich av s... Jonas, dyer 727 Lyndale av n, r 806 same.",3213,Aldrich av s,r
+Mary D,Storage,,smstrs,,minneapolis_1900_batch_1.json,"""Mary D, smstrs, r 2629 3d av s. "" "" O Moritz, painter 237 10th av s, r same.",2629,3d av s,r
+Samuel O,Storage,,slsmn,J H Martin & Co,minneapolis_1900_batch_1.json,"""Samuel O, slsmn J H Martin & Co, b 1016 1st av s.",1016,1st av s,b
+Wm T,Storage,,comp,G W Ptg Co,minneapolis_1900_batch_1.json,"""Wm T, comp G W Ptg Co, r 1011 1st av s",1011,1st av s,r
+John,Abromed,,,,minneapolis_1900_batch_1.json,"Abromed John, r 2115 Aldrich av n.",2115,Aldrich av n,r
+Johanna,Abst,,opr,Hegna Mnfg Co,minneapolis_1900_batch_1.json,"Abst Johanna, opr Hegna Mnfg Co. b 3020 Queen av n..",3020,Queen av n,b
+Emma,Abt,Michael,tchr,Everett. school,minneapolis_1900_batch_1.json,"Abt Emma (wid Michael), tchr Everett. school, b 2309 Bryant av s.",2309,Bryant av s,b
+Arthur,Aby,,carp,Lillibridge-Bremner Fac- tory,minneapolis_1900_batch_1.json,"Aby Arthur, carp Lillibridge-Bremner Fac- tory, r 2730 1st av s.",2730,1st av s,r
+Nathaniel J,Acers,,lab,,minneapolis_1900_batch_1.json,"Acers Nathaniel J, lab, r 627 Washn av S.",627,Washn av S,r
+Constant H,Acetylene,,real,est 633 1st av s,minneapolis_1900_batch_1.json,"""Constant H, real est 633 1st av s, r 721 s 7th.",721,s 7th,r
+George W,Acetylene,,broker,,minneapolis_1900_batch_1.json,"""George W, broker, r 712 8th av s.",712,8th av s,r
+Lutheran,German,,church;,,minneapolis_1900_batch_1.json,German Lutheran church; r 609 18th av n.,609,18th av n,r
+Joseph,Achim,,lab,,minneapolis_1900_batch_1.json,"Achim Joseph, lab, b 70 Cooper.",70,Cooper,b
+Blanche,Achuff,,waiter,,minneapolis_1900_batch_1.json,"""Blanche, waiter, rms 516 2d av s.",516,2d av s,rms
+Charles,Achuff,,lab,,minneapolis_1900_batch_1.json,"""Charles, lab, b 215 s 2d.",215,s 2d,b
+Florabelle,Achuff,,hairdresser,,minneapolis_1900_batch_1.json,"""Florabelle, hairdresser. b 1904 10th av s.",1904,10th av s,b
+Florence A,Achuff,,stenogr,Matthews Adv Co,minneapolis_1900_batch_1.json,"""Florence A, stenogr Matthews Adv Co, b 2322 Logan av n.",2322,Logan av n,b
+Frank,Achuff,,contr,,minneapolis_1900_batch_1.json,"""Frank, contr, r 2322 Logan av.n.",2322,Logan av,r
+Frank M,Achuff,,clk,G N Ry,minneapolis_1900_batch_1.json,"""Frank M, clk G N Ry, b 2322 Logan av n",2322,Logan av n,b
+House,Nicollet,,blk,,minneapolis_1900_batch_1.json,"Nicollet House blk, r 2722 Newton av n",2722,Newton av n,r
+Carl W,Laura,,mach,Heath-Quimby Co,minneapolis_1900_batch_1.json,"""Carl W, mach Heath-Quimby Co, b 1213 s 9th. TENTS ENAT AD. CAMPBEL MINNEAPOLIS STEAM LAUNDRY DOES T...",1213,s 9th,b
+Martin,Ackerle,,brewer,Gluek's Brew Co,minneapolis_1900_batch_1.json,"Ackerle Martin, brewer Gluek's Brew Co, r 2114 ne Grand.",2114,ne Grand,r
+Charles A,Ackerlund,,barber,S G Lung- strom,minneapolis_1900_batch_1.json,"Ackerlund Charles A, barber S G Lung- strom, b 400 6th av s.",400,6th av s,b
+August A,Ackerly,,appr,RB Ackerman & Co,minneapolis_1900_batch_1.json,"""August A, appr RB Ackerman & Co, b 2019 Fremont av n.",2019,Fremont av n,b
+Belle W,Ackerly,George,,,minneapolis_1900_batch_1.json,"""Belle W (wid George), b 2430 11th av s.",2430,11th av s,b
+Charles,Ackerly,,tinner,F T Thompson,minneapolis_1900_batch_1.json,"""Charles, tinner F T Thompson, r 2422 Central av..",2422,Central av,r
+David,Ackerly,,mach,opr H C Akeley Lbr Co,minneapolis_1900_batch_1.json,"""David, mach opr H C Akeley Lbr Co, r 605 21st av n.",605,21st av n,r
+Erick,Ackerly,,tmstr,,minneapolis_1900_batch_1.json,"""Erick, tmstr, r 827 29th av s. "" 44 Frank, lab, rms 204 Hennepin av.",827,29th av s,r
+Jacob B,Harry,,clk,Pfohl & Smith,minneapolis_1900_batch_1.json,"""Jacob B, clk Pfohl & Smith, rms 711 Nicollet av. 66",711,Nicollet av,rms
+Olof J,John,,lab,,minneapolis_1900_batch_1.json,"""Olof J, lab, r 1300 e 24th. """,1300,e 24th,r
+Rudolph B,Robert,R B Ackerman & Co,,,minneapolis_1900_batch_1.json,"""Rudolph B (R B Ackerman & Co), r 2019 Fremont av n.",2019,Fremont av n,r
+Nicholas,Ackermann,,car,repr C M & St P Ry,minneapolis_1900_batch_1.json,"Ackermann Nicholas, car repr C M & St P Ry, r 3048 24th av s.",3048,24th av s,r
+Theresa,Ackermann,,,,minneapolis_1900_batch_1.json,"""Theresa, b 910 20th av n. Ackerson, see also Akeson.",910,20th av n,b
+Alicia M,Ackermann,,bkpr,T C Dye Wks,minneapolis_1900_batch_1.json,"""Alicia M, bkpr T C Dye Wks, b 807 15th av s.",807,15th av s,b
+Otillia A,Hannah,,musician,,minneapolis_1900_batch_1.json,"""Otillia A, musician, b 807 15th av s. Walburg, dom 111 w Grant.. """,807,15th av s,b
+Willard H,Hannah,,student,U of M,minneapolis_1900_batch_1.json,"""Willard H, student U of M, b 807 15th av s.",807,15th av s,b
+Winifred H,Hannah,,student,U of M,minneapolis_1900_batch_1.json,"""Winifred H, student U of M, b 807 15th av s.",807,15th av s,b
+Andrew J,Ackervold,,gardener,,minneapolis_1900_batch_1.json,"Ackervold Andrew J, gardener, r 2439 lumbus av.",2439,lumbus av,r
+Henry J,Ackerwold,,,,minneapolis_1900_batch_1.json,"Ackerwold Henry J, r 411 e 22d.. ADA 107 MUSIC Metropolitan Co.",411,e 22d,r
+Thurlow A,Metropolitan,,"D,",chimney sweep,minneapolis_1900_batch_1.json,"""Thurlow A D, chimney sweep, r 2007 s 8th:",2007,s 8th:,r
+Wm J,Walter,,brakeman,Mpls Western Ry,minneapolis_1900_batch_1.json,"""Wm J, brakeman Mpls Western Ry, r 511 16th av s.",511,16th av s,r
+Emma,Acklund,,mach,opr D Cohen & Co,minneapolis_1900_batch_1.json,"Acklund Emma, mach opr D Cohen & Co, b 252 Plymouth av n.",252,Plymouth av n,b
+Edward,Acomb,,evangélist,,minneapolis_1900_batch_1.json,"Acomb Edward, evangélist, r 3325 1st av s.",3325,1st av s,r
+Wm E,Acomb,,student,U of M,minneapolis_1900_batch_1.json,"""Wm E, student U of M, b 3325 1st av s. Acres. Nathaniel J, moved to Duluth, Minn.",3325,1st av s,b
+Thomas,Acomb,,lab,,minneapolis_1900_batch_1.json,"""Thomas, lab, r 637 s e Erie.",637,s e Erie,r
+Charles E.,Adair,,slsmn,Foster & Waldo,minneapolis_1900_batch_1.json,"Adair Charles E. slsmn Foster & Waldo, r 2507 e Lake.",2507,e Lake,r
+Charles W,Adair,,foreman,Sweatt Mnfg Co,minneapolis_1900_batch_1.json,"""Charles W, foreman Sweatt Mnfg Co, b 2507 e Lake.",2507,e Lake,b
+Frederick L,Adair,,student,U of M,minneapolis_1900_batch_1.json,"""Frederick L, student U of M, b 400 Washn av se",400,Washn av se,b
+Glenn S,Adair,,student,,minneapolis_1900_batch_1.json,"""Glenn S, student, b 2507 e Lake.",2507,e Lake,b
+Homer W,Adair,,clk,Godfrey Deziel,minneapolis_1900_batch_1.json,"""Homer W, clk Godfrey Deziel, b 1 Cen- tral av.",1,Cen- tral av,b
+James,Adair,,mngr,Godfrey Deziel,minneapolis_1900_batch_1.json,"""James, mngr Godfrey Deziel, r 620 'Gir- ard av n.",620,'Gir- ard av n,r
+Mrs L,Adair,,ydia,,minneapolis_1900_batch_1.json,"""Mrs Lydia, b 825 4th av s. THE HANDSTAD Easiest Running BICYCLE None but Thor Fittings used in our ...",825,4th av s,b
+George A,Adam,,slsmn,"E P Stacy & Sons, Medium Grade",minneapolis_1900_batch_1.json,"Adam George A, slsmn E P Stacy & Sons, Medium Grade, r 2528 ne Taylor.",2528,ne Taylor,r
+Mnfrs,Plaster,,),"Co-Adamek Anton J, lab Mpls Thresh M Co, b. Frank Kriz, Hopkins. Ida, milliner Susan Thorington",minneapolis_1900_batch_1.json,"Plaster Mnfrs.) Co-Adamek Anton J, lab Mpls Thresh M Co, b. Frank Kriz, Hopkins. Ida, milliner Susan...",411,e 22d,b
+Andrew,Acklad,,tmstr,Carlisle Cameron,minneapolis_1900_batch_1.json,"""Andrew, tmstr Carlisle Cameron, b 824 n 5th.",824,n 5th,b
+Co,Mnfg,,,,minneapolis_1900_batch_1.json,"Mnfg Co, r 803 11th av s e.",803,11th av s e,r
+Harry W,Mnfg,,clk,R M S,minneapolis_1900_batch_1.json,"""Harry W, clk R M S, r 723 13th av s e. J.SCHUTT & SON LOANS 340 TEMPLE COURT. FRED",723,13th av s e,r
+Abner L,Adams,,foreman,Kinnard Press Co,minneapolis_1900_batch_1.json,"Adams Abner L, foreman Kinnard Press Co, r 4121 Lyndale av n..",4121,Lyndale av n,r
+Ada D,Adams,Alfred L,,,minneapolis_1900_batch_1.json,"""Ada D (wid Alfred L), b 1801 University av s e.",1801,University av s e,b
+Mrs A,Adams,,ddie,"D, smstrs",minneapolis_1900_batch_1.json,"""Mrs Addie D, smstrs, r 26 s 11th. Albert, r 2017 James av n. """,26,s 11th,r
+Albert,Adams,,carp,,minneapolis_1900_batch_1.json,"""Albert, carp, r 3136 Portland av..",3136,Portland av,r
+Alexander,Adams,,mach,CM & St P Ry,minneapolis_1900_batch_1.json,"""Alexander, mach CM & St P Ry, r 3201 Minnehaha av.",3201,Minnehaha av,r
+Alexander,Adams,,mattressmkr,Satterlee,minneapolis_1900_batch_1.json,"""Alexander, mattressmkr Satterlee, b 11 s 12th. Salisbury &",11,s 12th,b
+Almer J,Adams,,tmstr,,minneapolis_1900_batch_1.json,"""Almer J, tmstr, b 514 Irving av n.",514,Irving av n,b
+Andrew H,Adams,Chamber of Com Samp- ling Bureau,',jr,minneapolis_1900_batch_1.json,"""Andrew H' jr (Chamber of Com Samp- ling Bureau), r 501 25th av s e.",501,25th av s e,r
+Anna,Adams,,smstrs,Lina Christianson,minneapolis_1900_batch_1.json,"""Anna, smstrs Lina Christianson, b 1915 s 8th.",1915,s 8th,b
+Anna L,Adams,,,,minneapolis_1900_batch_1.json,"""Anna L, b 4121 Lyndale av n.",4121,Lyndale av n,b
+Annie G,Adams,,,,minneapolis_1900_batch_1.json,"""Annie G, b 3107 2d av s.",3107,2d av s,b
+Arthur W,Adams,,gardener,,minneapolis_1900_batch_1.json,"""Arthur W, gardener, r 5400 34th av s.",5400,34th av s,r
+Caleb B,Cedar,,janitor,U of M,minneapolis_1900_batch_1.json,"""Caleb B, janitor U of M, r 2813 e 25th.",2813,e 25th,r
+Charles,Cedar,,lab,Mpls Cooperage Co,minneapolis_1900_batch_1.json,"""Charles, lab Mpls Cooperage Co, b 2328 Cedar av.",2328,Cedar av,b
+Charles,Cedar,,carp,M & St LR R,minneapolis_1900_batch_1.json,"""Charles, carp M & St LR R, r 514 Irv- ing av n.",514,Irv- ing av n,r
+Charles E,Cedar,,fireman,CM & St P Ry,minneapolis_1900_batch_1.json,"""Charles E, fireman CM & St P Ry, r 2521 Bloomington av..",2521,Bloomington av,r
+Charles E,Cedar,,student,U of M,minneapolis_1900_batch_1.json,"""Charles E, student U of M, b 923 se 8th.",923,se 8th,b
+Signs,Board,,"""Charles","F, lab Shevlin Carpenter Co, SIZIQI N",minneapolis_1900_batch_1.json,"Board Signs ""Charles F, lab Shevlin Carpenter Co, SIZIQI N rms 523 s 6th.",523,s 6th,rms
+Charles H.,Board,,painter,E E Peterson Sign Co,minneapolis_1900_batch_1.json,"""Charles H. painter E E Peterson Sign Co, r 1915 s 8th.",1915,s 8th,r
+Charles J,Board,,carp,,minneapolis_1900_batch_1.json,"""Charles J, carp, r 514 Irving av n.",514,Irving av n,r
+Charles W,Board,,carp,,minneapolis_1900_batch_1.json,"""Charles W, carp, b 3201 Minnehaha av.",3201,Minnehaha av,b
+Clara M,Board,,student,U of M,minneapolis_1900_batch_1.json,"""Clara M, student U of M, b 229 8th av",229,8th av,b
+Mrs D,Stemm,,"ora,",tchr,minneapolis_1900_batch_1.json,"""Mrs Dora, tchr, b 1415 Portland av.",1415,Portland av,b
+Edna,Stemm,,student,Mpls School of Music,minneapolis_1900_batch_1.json,"""Edna, student Mpls School of Music, b 2014 3d av s.",2014,3d av s,b
+Edward H,Stemm,,painter,,minneapolis_1900_batch_1.json,"""Edward H, painter, r 752 Franklin av e.",752,Franklin av e,r
+Elizabeth E,Stemm,,clk,NE Furn & C Co,minneapolis_1900_batch_1.json,"""Elizabeth E, clk NE Furn & C Co, b 916 3d av S.",916,3d av S,b
+Elizabeth J,Stemm,Andrew H,,,minneapolis_1900_batch_1.json,"""Elizabeth J (wid Andrew H), r 3107 2d",3107,2d,r
+Emroy C,Stemm,,tchr,North High school,minneapolis_1900_batch_1.json,"""Emroy C, tchr North High school, b 2110 Fremont av n.",2110,Fremont av n,b
+Ernest E,Stemm,,glazier,Pittsburgh Plate Glass Co,minneapolis_1900_batch_1.json,"""Ernest E, glazier Pittsburgh Plate Glass Co, r 2021 n 4th.",2021,n 4th,r
+Eugene D,Stemm,,clk,Wm Donaldson & Co,minneapolis_1900_batch_1.json,"""Eugene D, clk Wm Donaldson & Co, b 5 e 17th. """,5,e 17th,b
+Frederick T,Eugene,,expman,,minneapolis_1900_batch_1.json,"""Frederick T, expman, b 711 1st av S.",711,1st av S,b
+Freeman,Eugene,,oiler,Cons B Mill,minneapolis_1900_batch_1.json,"""Freeman, oiler Cons B Mill, r 117 ne 2d. George, car repr CM & St P Ry, b 3201 Minnehaha av. """,117,ne 2d,r
+George C,Eugene,,solr,Conroy & Crotty,minneapolis_1900_batch_1.json,"""George C, solr Conroy & Crotty, r 47 s 8th.",47,s 8th,r
+George E,Eugene,,trimmer,Nelson-Frey Co,minneapolis_1900_batch_1.json,"""George E, trimmer Nelson-Frey Co, r 313 se 8th.",313,se 8th,r
+George H,Eugene,,porter,G N Ry,minneapolis_1900_batch_1.json,"""George H, porter G N Ry, r 1911 Washn av s.",1911,Washn av s,r
+George W,Eugene,,tel,opr CE Lewis Co,minneapolis_1900_batch_1.json,"""George W, tel opr CE Lewis Co, r 3045 "" Pillsbury av. Grover, lab H C Akeley Lbr Co, b 2017 James a...",3045,""" Pillsbury av",r
+Guy W,Adams,,pressfeeder,Leighton Bros,minneapolis_1900_batch_1.json,"Adams Guy W, pressfeeder Leighton Bros, b 1812 Bryant av n.",1812,Bryant av n,b
+Harriet F,Adams,Samuel H,,,minneapolis_1900_batch_1.json,"""Harriet F (wid Samuel H), r 224 s 10th.",224,s 10th,r
+Harry S,Adams,,fireman,,minneapolis_1900_batch_1.json,"""Harry S, fireman, b 224 s 10th. "" Helen, student U of M, b 923 s e 8th.",224,s 10th,b
+Henry,Adams,,,,minneapolis_1900_batch_1.json,"""Henry, b 2003 James av n.",2003,James av n,b
+Henry,Adams,,trav,agt A V Cleland,minneapolis_1900_batch_1.json,"""Henry, trav agt A V Cleland, r 2014 3d av s.",2014,3d av s,r
+Henry R,Henry,,firepipe,insptr city water wks,minneapolis_1900_batch_1.json,"""Henry R, firepipe insptr city water wks, r 1710 Western av.",1710,Western av,r
+Hugh A,Henry,,messr,The Economy,minneapolis_1900_batch_1.json,"""Hugh A, messr The Economy, b 38 s 9th.",38,s 9th,b
+Isaac M,Henry,,trav,agt,minneapolis_1900_batch_1.json,"""Isaac M, trav agt, r 923 se 8th.",923,se 8th,r
+Isaac W,Henry,,painter,,minneapolis_1900_batch_1.json,"""Isaac W, painter, r 2821 3d av S.",2821,3d av S,r
+James,Henry,,feeder,Harrison & Smith Co,minneapolis_1900_batch_1.json,"""James, feeder Harrison & Smith Co, b 3201 Minnehaha av. """,3201,Minnehaha av,b
+Jennie R,James,,smstrs,,minneapolis_1900_batch_1.json,"""Jennie R, smstrs, b 2315 n e Jackson.",2315,n e Jackson,b
+John,James,,lap,,minneapolis_1900_batch_1.json,"""John lap, rms 409 14th av se.",409,14th av se,rms
+John P,James,,"H,",janitor St Joseph church,minneapolis_1900_batch_1.json,"""John P H, janitor St Joseph church, b 1127 n 4th.",1127,n 4th,b
+Julia O,James,,tchr,Douglas school,minneapolis_1900_batch_1.json,"""Julia O, tchr Douglas school, b 327 s 10th J Lester, collr, b 2623 Dupont av n. ADAMS J Q & CO (JOH...",327,s 10th J Lester,b
+Levi G,John,J H. Martin & Co,,,minneapolis_1900_batch_1.json,"""Levi G (J H. Martin & Co), r 422 James av n.",422,James av n,r
+Lillian,John,,,,minneapolis_1900_batch_1.json,"""Lillian, b 3126 4th av s.",3126,4th av s,b
+Mabel,John,,student,U of M,minneapolis_1900_batch_1.json,"""Mabel, student U of M, b 923 s e 8th.",923,s e 8th,b
+Mrs M,John,,argaret,E,minneapolis_1900_batch_1.json,"""Mrs Margaret E. r 2017 James av n.",2017,James av n,r
+Mary,John,,student,,minneapolis_1900_batch_1.json,"""Mary, student, b 1700 Clinton av.",1700,Clinton av,b
+Matilda,John,,laundress,,minneapolis_1900_batch_1.json,"""Matilda, laundress, b 252 7th av n.",252,7th av n,b
+Milo A,John,,contr,,minneapolis_1900_batch_1.json,"""Milo A, contr, r 3016 Pleasant av.",3016,Pleasant av,r
+Noah,John,,lumber,1229 Guaranty bldg,minneapolis_1900_batch_1.json,"""Noah, lumber 1229 Guaranty bldg, r 1216 Logan av n.",1216,Logan av n,r
+Olive A,John,Oliver W,,,minneapolis_1900_batch_1.json,"""Olive A (wid Oliver W), b 1830 Columbus av.",1830,Columbus av,b
+Paul,John,,student,U of M,minneapolis_1900_batch_1.json,"""Paul, student U of M, b 923 se 8th.",923,se 8th,b
+Porter,John,,lab,H C Akeley Lbr Co,minneapolis_1900_batch_1.json,"""Porter, lab H C Akeley Lbr Co, b 2017 James av n.",2017,James av n,b
+Ray H,John,,lab.,Bovey-DeLaittre Lbr Co,minneapolis_1900_batch_1.json,"""Ray H, lab. Bovey-DeLaittre Lbr Co, b 3919 Washn av n.",3919,Washn av n,b
+Reuben H,John,,bkpr,T B Walker,minneapolis_1900_batch_1.json,"""Reuben H, bkpr T B Walker, r 3126 4th av s. av.",3126,4th av s,r
+Synod,Presbyterian,,of,Minn,minneapolis_1900_batch_1.json,"Presbyterian Synod of Minn, rms 2 620% Nicollet av. 501 CRUSHED LIMESTONE LANGDON STONE Co NY. LIFE ...",2,620% Nicollet av,rms
