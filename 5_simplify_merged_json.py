@@ -1,8 +1,8 @@
 import os
 import json
 
-input_dir = "/Users/robinsah/Documents/Jobs/HouseNovel/merged_outputs"
-output_dir = "/Users/robinsah/Documents/Jobs/HouseNovel/simplified_outputs"
+input_dir = ".../merged_outputs"
+output_dir = ".../simplified_outputs"
 os.makedirs(output_dir, exist_ok=True)
 
 for fname in sorted(os.listdir(input_dir)):
