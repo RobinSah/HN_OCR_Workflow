@@ -1,6 +1,6 @@
 ## **Project Workflow: Minneapolis City Directory Resident Extraction (1900–1950)**
 
-### **1910**
+### **🟢1910🟢**
 
 ### **1. Image Scraping with `scraper.py`**
 
