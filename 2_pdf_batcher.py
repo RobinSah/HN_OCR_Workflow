@@ -5,8 +5,8 @@ import os
 from PIL import Image
 
 # 1. Define input and output directories
-images_dir = ".../minneapolis_1910_pages/"
-output_pdf_dir = ".../minneapolis_1910_pdfs/"
+images_dir = "minneapolis_1910_pages"
+output_pdf_dir = "minneapolis_1910_pdfs"
 
 # 2. Create the output directory if it doesn't exist
 os.makedirs(output_pdf_dir, exist_ok=True)
