@@ -1,0 +1,194 @@
+FirstName,LastName,Spouse,Occupation,CompanyName,source_file,raw_entry,StreetNumber,StreetName,ResidenceIndicator
+Frank,Laabo,,driver,,minneapolis_1910_batch_6.json,Laabo Frank driver rms 73 Western av,73,Western av,rms
+Paul E,Laabs,,artist,,minneapolis_1910_batch_6.json,Laabs Paul E artist b 224 S 9th,224,S 9th,b
+John,Laagere,,mach,opr,minneapolis_1910_batch_6.json,Laagere John mach opr b 38 Western av,38,Western av,b
+Emil,Laakso,,lab,,minneapolis_1910_batch_6.json,Laakso Emil lab b 41 N 10th,41,N 10th,b
+Guild,Laate,,student,,minneapolis_1910_batch_6.json,Laate Guild student b 1415 University av SE,1415,University av SE,b
+Benj,Laba,,lab,,minneapolis_1910_batch_6.json,Laba Benj lab b 1714 'N E 5th,1714,'N E 5th,b
+Alex,Labadz,,finisher,,minneapolis_1910_batch_6.json,Labadz Alex finisher r 118 7th av N,118,7th av N,r
+Bar B,La,,ertha,waiter,minneapolis_1910_batch_6.json,La Bar Bertha waiter rms 88 S 11th,88,S 11th,rms
+Frank,Labijok,,eng,Franklin School,minneapolis_1910_batch_6.json,"Labijok Frank eng Franklin School r 2301 "" 66 N 2d Louis lab b 2301 N 2d Mary tel opr b 2301 N 2d",2301,""" 66 N 2d Louis lab b 2301 N 2d Mary tel opr b 2301 N 2d",r
+Geo,Labarda,,rackman,b 223. 14th av N E Labinsinger Alex mach Gas Traction Co LaBarr Mrs Ray L seams,minneapolis_1910_batch_6.json,Labarda Geo rackman b 223. 14th av N E Labinsinger Alex mach Gas Traction Co LaBarr Mrs Ray L seams ...,306,5th av S r 4035 Emerson av N,r
+Alex,Labbinsinyer,,mach,,minneapolis_1910_batch_6.json,Labbinsinyer Alex mach r 4035 Emerson av N,4035,Emerson av N,r
+Geo G,Labbitt,,clk,,minneapolis_1910_batch_6.json,Labbitt Geo G clk r 2000 NE 3d LaBeaux Chas D tmstr b 126 Central av,2000,NE 3d LaBeaux Chas D tmstr b 126 Central av,r
+Cora C,Labbitt,Adolphus,,,minneapolis_1910_batch_6.json,"""Cora C (wid Adolphus) r 126 Central "" av """,126,"Central "" av """,r
+Sigmund B,Labeles,,,,minneapolis_1910_batch_6.json,Labeles Sigmund B r 1411 Nicollet av LaBelle Ada stenogr r 1623 Hawthorn av,1411,Nicollet av LaBelle Ada stenogr r 1623 Hawthorn av,r
+Alfred M,Labeles,,stonectr,,minneapolis_1910_batch_6.json,"""Alfred M stonectr r 2107 S 8th",2107,S 8th,r
+Blanche,Labeles,,seams,,minneapolis_1910_batch_6.json,"""Blanche seams b 810 NE 5th",810,NE 5th,b
+Delimma,Labeles,,dipper,,minneapolis_1910_batch_6.json,"""Delimma dipper b 455 Taylor r b 3401 Colfax av N",455,Taylor r b 3401 Colfax av N,b
+Gilbert,Labeles,,tmstr,,minneapolis_1910_batch_6.json,"""Gilbert tmstr r 3401 Colfax av N",3401,Colfax av N,r
+Louis G,Labeles,,tmstr,,minneapolis_1910_batch_6.json,"""Louis G tmstr b 3401 Colfax av N",3401,Colfax av N,b
+Nettie M,Labeles,,stenogr,,minneapolis_1910_batch_6.json,"""Nettie M stenogr b 3401 Colfax av N",3401,Colfax av N,b
+Rose,Labeles,,housekpr,,minneapolis_1910_batch_6.json,"""Rose housekpr b 3401 Colfax av N",3401,Colfax av N,b
+Win,Labeles,,mach,opr,minneapolis_1910_batch_6.json,"""Win mach opr b 3401 Colfax av N LaBlanc Frank J appr b 2306 Monroe",3401,Colfax av N LaBlanc Frank J appr b 2306 Monroe,b
+Joseph D,Labeles,,lab,,minneapolis_1910_batch_6.json,"""Joseph D lab r 2306 Monroe",2306,Monroe,r
+Chas E,Labo,,mason,,minneapolis_1910_batch_6.json,Labo Chas E mason r 255 8th av N,255,8th av N,r
+Earl,Labo,,threadctr,,minneapolis_1910_batch_6.json,"""Earl threadctr rms 126 Central av",126,Central av,rms
+Edward J,Labo,,tmstr,,minneapolis_1910_batch_6.json,"""Edward J tmstr b 4004 37th av S 66",4004,37th av S 66,b
+Leo D,Joseph,,tmstr,,minneapolis_1910_batch_6.json,"""Leo D tmstr b 4004 37th av S",4004,37th av S,b
+Louis A,Joseph,,helper,,minneapolis_1910_batch_6.json,"""Louis A helper r 521 3d av NE Myrtle pkr b 255 8th av N 66",521,3d av NE Myrtle pkr b 255 8th av N 66,r
+Dezara E,Joseph,,lawyer,316 Security Bank Labock Leonard lab 41 Central av bldg,minneapolis_1910_batch_6.json,"""Dezara E lawyer 316 Security Bank Labock Leonard lab 41 Central av bldg b 3711 1st av S",3711,1st av S,b
+Edward,Joseph,,carp,,minneapolis_1910_batch_6.json,"""Edward carp r 810 N E 5th",810,N E 5th,r
+Elijah,Joseph,,tmstr,,minneapolis_1910_batch_6.json,"""Elijah tmstr r 415 10th av N",415,10th av N,r
+Eugenia,Joseph,,pkr,,minneapolis_1910_batch_6.json,"""Eugenia pkr b 455 Taylor",455,Taylor,b
+Florence,Joseph,,mach,opr,minneapolis_1910_batch_6.json,"""Florence mach opr b 514 15th av N",514,15th av N,b
+Geo,Joseph,,bkpr,Skellet Co,minneapolis_1910_batch_6.json,"""Geo bkpr Skellet Co r 2608 Plymouth av",2608,Plymouth av,r
+Ida,Joseph,,mach,opr,minneapolis_1910_batch_6.json,"""Ida mach opr b 410 6th av N E",410,6th av N E,b
+Jeremiah J,Joseph,,car,opr,minneapolis_1910_batch_6.json,"""Jeremiah J car opr b 2933 1st av S",2933,1st av S,b
+Joseph,Joseph,,lab,,minneapolis_1910_batch_6.json,"""Joseph lab r 455 Taylor 66 Joseph grocer 1529 S 5th r same",455,Taylor 66 Joseph grocer 1529 S 5th r same,r
+Joseph,Joseph,,lab,,minneapolis_1910_batch_6.json,"""Joseph lab r 417 39th av N """,417,"39th av N """,r
+Louis,Joseph,,,,minneapolis_1910_batch_6.json,"""Louis b 215 Broadway",215,Broadway,b
+Louisa,Joseph,Wm,,,minneapolis_1910_batch_6.json,"""Louisa (wid Wm) r 733 S 10th",733,S 10th,r
+Lucille,Joseph,,messr,NA Tel Co,minneapolis_1910_batch_6.json,"""Lucille messr NA Tel Co b 2207 Al- drich av N",2207,Al- drich av N,b
+Lucille A,Joseph,,bkpr,Edwards Bros,minneapolis_1910_batch_6.json,"""Lucille A bkpr Edwards Bros b 3711 1st av S",3711,1st av S,b
+Minnie,Joseph,Wm,,,minneapolis_1910_batch_6.json,"""Minnie (wid Wm) r 423 16th av N 66 Myrtle pkr b 1508 Plymouth av",423,16th av N 66 Myrtle pkr b 1508 Plymouth av,r
+Noah,Joseph,,sawyer,,minneapolis_1910_batch_6.json,"""Noah sawyer r 1618 N 6th",1618,N 6th,r
+Noah H,Joseph,,foreman,"Green & DeLaittre Co """,minneapolis_1910_batch_6.json,"""Noah H foreman Green & DeLaittre Co "" r 1715 N 6th",1715,N 6th,r
+Peter S,Joseph,,filer,,minneapolis_1910_batch_6.json,"""Peter S filer r 1508 Plymouth av",1508,Plymouth av,r
+Roderick,Raymond,,carp,,minneapolis_1910_batch_6.json,"""Roderick carp r 2207 Aldrich av N LA BELLE TRANSFER CO E A Forgeot Mngr Furniture Moved and Stored ...",2207,Aldrich av N LA BELLE TRANSFER CO E A Forgeot Mngr Furniture Moved and Stored Piano Moving a Specialty 106 S 6th tel T-S 884 N W Nic 1855,r
+Wilfred,Raymond,,painter,,minneapolis_1910_batch_6.json,"""Wilfred painter b 455 Taylor",455,Taylor,b
+Wm,Raymond,,appr,,minneapolis_1910_batch_6.json,"""Wm appr b 733 S 10th",733,S 10th,b
+Wm,Raymond,,tmstr,,minneapolis_1910_batch_6.json,"""Wm tmstr r 1857 E 24th",1857,E 24th,r
+Wm,Raymond,,bootblack,,minneapolis_1910_batch_6.json,"""Wm bootblack b 1906 17th av S.",1906,17th av S,b
+Harold A,Laber,,clk,R M S,minneapolis_1910_batch_6.json,Laber Harold A clk R M S b 1402 Laurel av,1402,Laurel av,b
+Andrew,Labiak,,waiter,b. 409 S 6th Anastacia opr T-S Tel Co,minneapolis_1910_batch_6.json,Labiak Andrew waiter b. 409 S 6th Anastacia opr T-S Tel Co b 2301 N 2d. Labijok NELSON,2301,N 2d,b
+Alex,Labondz,,lab,,minneapolis_1910_batch_6.json,Labondz Alex lab r 118 7th av NE,118,7th av NE,r
+Bonne S,La,,amuel,J car opr,minneapolis_1910_batch_6.json,La Bonne Samuel J car opr rms 408 3d av SE LaBonte Joseph lab b 206 SE 4th,408,3d av SE LaBonte Joseph lab b 206 SE 4th,rms
+Peter,La,,weigher,,minneapolis_1910_batch_6.json,"""Peter weigher r 759 N E Washn LABOR DIGEST THE E E STEVENS Publisher 202 N Y Life Bldg 66",759,N E Washn LABOR DIGEST THE E E STEVENS Publisher 202 N Y Life Bldg 66,r
+Elmer J,Labough,,contr,,minneapolis_1910_batch_6.json,Labough Elmer J contr r 3328 Pleasant av,3328,Pleasant av,r
+Abraham,Labovich,,live,stock,minneapolis_1910_batch_6.json,Labovich Abraham live stock r 900 16th av S,900,16th av S,r
+Frank,Labovich,,clk,,minneapolis_1910_batch_6.json,"""Frank clk b 716 16th av S "" Israel conf 718 16th av Sr 716 same",716,"16th av S "" Israel conf 718 16th av Sr 716 same",b
+Lawrence,Labovich,,cigarmkr,,minneapolis_1910_batch_6.json,"""Lawrence cigarmkr b 900 16th av S",900,16th av S,b
+Louis S,Labovich,,mech,dentist,minneapolis_1910_batch_6.json,"""Louis S mech dentist b 625 Oak Lake av",625,Oak Lake av,b
+Rose L,Labovich,,stenogr,Swain-Farmer Co,minneapolis_1910_batch_6.json,"""Rose L stenogr Swain-Farmer Co b 900 16th av S 66",900,16th av S 66,b
+Benj C,Labovitz,,clk,,minneapolis_1910_batch_6.json,Labovitz Benj C clk b 83 Highland av David mach opr r 922 11th av N,83,Highland av David mach opr r 922 11th av N,b
+Morris,Labovitz,Twin City Mnfg Co,peddler,b rear 1413 S 3d Nettie finisher,minneapolis_1910_batch_6.json,"""Morris peddler b rear 1413 S 3d Nettie finisher b 819 3d av N 66 66 Samuel (Twin City Mnfg Co) r 83...",819,3d av N 66 66 Samuel  r 83 Highland av,b
+Arthur M,Labovitz,,gasftr,,minneapolis_1910_batch_6.json,"""Arthur M gasftr b 915 Aldrich av N",915,Aldrich av N,b
+Nicholas A,Nelson,,ftr,,minneapolis_1910_batch_6.json,"""Nicholas A ftr b 915 Aldrich av N",915,Aldrich av N,b
+Breche C,La,,has,A pipeftr,minneapolis_1910_batch_6.json,La Breche Chas A pipeftr r 3229 Girard av N,3229,Girard av N,r
+Zoa,La,Zepherin,,,minneapolis_1910_batch_6.json,"""Zoa (wid Zepherin) r 317 N E 4th PAVING",317,N E 4th PAVING,r
+Department L,Ladies,,aBrie,Adolphus mach,minneapolis_1910_batch_6.json,Ladies Department LaBrie Adolphus mach b 1648 Marshall,1648,Marshall,b
+Frank,Ladies,,tel,opr,minneapolis_1910_batch_6.json,"""Frank tel opr b 1224 8th av N",1224,8th av N,b
+Lewis,Ladies,,ladderman,H & L Co 2,minneapolis_1910_batch_6.json,"""Lewis ladderman H & L Co 2 b 1224 av N",1224,av N,b
+Louis E,Ladies,,tmstr,,minneapolis_1910_batch_6.json,"""Louis E tmstr r 1648 Marshall 1910-200 FIRST AVE. S. 1911-201-11 N. 3rd ST. LAD",1648,Marshall 1910-200 FIRST AVE,r
+Ole E,Lackrem,,janitor,,minneapolis_1910_batch_6.json,Lackrem Ole E janitor r 20 N 15th,20,N 15th,r
+Eliza J,La,Ezra I,,,minneapolis_1910_batch_6.json,"""Eliza J (wid Ezra I) b 1309 Stevens av",1309,Stevens av,b
+Emery S,La,,bkpr,Elec Eng Co,minneapolis_1910_batch_6.json,"""Emery S bkpr Elec Eng Co r 1309 Stevens av",1309,Stevens av,r
+John,La,,helper,,minneapolis_1910_batch_6.json,"""John helper b 29 N E 2d 66 """,29,"N E 2d 66 """,b
+Wm,Leon,,lab,,minneapolis_1910_batch_6.json,"""Wm lab b 1601 N 5th LaCoe Adaline M seams b 2904 Taylor",1601,N 5th LaCoe Adaline M seams b 2904 Taylor,b
+Cyril L,Leon,,,,minneapolis_1910_batch_6.json,"""Cyril Lr 2904 Taylor",2904,Taylor,r
+Geo,Leon,,lather,,minneapolis_1910_batch_6.json,"""Geo lather b 2904 Taylor 66 Mary mach opr b 2904 Taylor 8th Lacombe Edward lab b 825 26th av NE LaC...",2904,Taylor 66 Mary mach opr b 2904 Taylor 8th Lacombe Edward lab b 825 26th av NE LaCount Isaac P tmstr r 726 Van Buren,b
+Peter E,Leon,,tmstr,,minneapolis_1910_batch_6.json,"""Peter E tmstr b 1648 Marshall",1648,Marshall,b
+Mrs S,Leon,,ophia,M,minneapolis_1910_batch_6.json,"""Mrs Sophia M b 1648 Marshall",1648,Marshall,b
+Wm,Leon,,tarber,,minneapolis_1910_batch_6.json,"""Wm tarber r 1060 23d av SE LaBuda Julia M nurse St Barnabas Hos- pital",1060,23d av SE LaBuda Julia M nurse St Barnabas Hos- pital,r
+Pierre,Labunte,,lab,,minneapolis_1910_batch_6.json,Labunte Pierre lab r 611 Broadway,611,Broadway,r
+Sarah,Labveckgue,,laundress,,minneapolis_1910_batch_6.json,Labveckgue Sarah laundress r 1207 S 5th,1207,S 5th,r
+Geo,Lace,,clk,,minneapolis_1910_batch_6.json,Lace Geo clk rms 1518 Lyndale av N,1518,Lyndale av N,rms
+Marion B,Lace,,L,seams,minneapolis_1910_batch_6.json,"""Marion BL seams b 912 S 7th",912,S 7th,b
+Wm,Lace,,cook,,minneapolis_1910_batch_6.json,"""Wm cook rms 1311 S 4th",1311,S 4th,rms
+Floryan,Lach,,lab,,minneapolis_1910_batch_6.json,Lach Floryan lab b 1530 N E 5th,1530,N E 5th,b
+Martin,Lach,,lab,,minneapolis_1910_batch_6.json,"""Martin lab r 2627 Quincy",2627,Quincy,r
+Michael,Lachapelle,Doyle & Lachapelle,,,minneapolis_1910_batch_6.json,Lachapelle Michael (Doyle & Lachapelle) r 3128 Pillsbury av Lacher see also Lesher and Luscher,3128,Pillsbury av Lacher see also Lesher and Luscher,r
+Albert H,Lachapelle,,plumber,,minneapolis_1910_batch_6.json,"""Albert H plumber rms 314 Plymouth av",314,Plymouth av,rms
+Alma,Lachapelle,,folder,,minneapolis_1910_batch_6.json,"""Alma folder b 3619 Girard av N",3619,Girard av N,b
+Arthur J,Lachapelle,,tmstr,,minneapolis_1910_batch_6.json,"""Arthur J tmstr r 320 25th av N",320,25th av N,r
+Benj J,Lachapelle,,artist,Bureau of Engraving,minneapolis_1910_batch_6.json,"""Benj J artist Bureau of Engraving r 3242 N 4th",3242,N 4th,r
+Elma,Lachapelle,,clk,,minneapolis_1910_batch_6.json,"""Elma clk b 3618 Girard av N """,3618,"Girard av N """,b
+Joseph,Harry,,,,minneapolis_1910_batch_6.json,"""Joseph r 314 Plymouth av "" 'Joseph Jr clk Wolpert Grocery Co b 314 Plymouth av LaCheur Pearl L opr ...",314,"Plymouth av "" 'Joseph Jr clk Wolpert Grocery Co b 314 Plymouth av LaCheur Pearl L opr rms 248 Lyndale av N",r
+Jacob A,Lachman,,tailor,,minneapolis_1910_batch_6.json,Lachman Jacob A tailor r 529 Colfax av N,529,Colfax av N,r
+Paul,Lachopol,,lab,,minneapolis_1910_batch_6.json,Lachopol Paul lab r 222 22d av S,222,22d av S,r
+Ernest A,Lack,,meatctr,,minneapolis_1910_batch_6.json,"""Ernest A meatctr b 1101 E 24th",1101,E 24th,b
+Michael,Lack,,lab,,minneapolis_1910_batch_6.json,"""Michael lab r 105 Wood r same",105,Wood r same,r
+Samuel,Lacker,,peddler,,minneapolis_1910_batch_6.json,Lacker Samuel peddler r 620 Emerson av N,620,Emerson av N,r
+Morris,Lacketz,,,,minneapolis_1910_batch_6.json,Lacketz Morris r 629 N 5th,629,N 5th,r
+Burley E,Lackey,,salsn,W K Morison & Co,minneapolis_1910_batch_6.json,Lackey Burley E salsn W K Morison & Co b 947 18th av NE,947,18th av NE,b
+Earl J,Lackey,,,,minneapolis_1910_batch_6.json,"""Earl Jrms 106 S 7th",106,S 7th,rms
+Edward J,Lackey,,laundryman,,minneapolis_1910_batch_6.json,"""Edward J laundryman rms 1124 Henne- pin av",1124,Henne- pin av,rms
+Jay,Lackey,,janitor,,minneapolis_1910_batch_6.json,"""Jay janitor b 2118 Pleasant av",2118,Pleasant av,b
+Samuel M,Lackhard,,driver,,minneapolis_1910_batch_6.json,Lackhard Samuel M driver r 3105 N 3d,3105,N 3d,r
+Leighton L,Lackley,,cond,,minneapolis_1910_batch_6.json,Lackley Leighton L cond r 1411 Nicollet av,1411,Nicollet av,r
+Elizabeth D,Lackore,Horace L,,,minneapolis_1910_batch_6.json,Lackore Elizabeth D (wid Horace L) b 312 W 33d,312,W 33d,b
+Golden E,Supt,,clk,Dayton Dry Goods. Co,minneapolis_1910_batch_6.json,"""Golden E clk Dayton Dry Goods. Co b 11 N 7th",11,N 7th,b
+Rose,Supt,La Crosse Wis,mach,opr,minneapolis_1910_batch_6.json,"""Rose mach opr b 1027 6th av S LaCrosse Geo tmstr r 3606 Bryant av N LA CROSSE IMPLEMENT CO A Hirshe...",1027,6th av S LaCrosse Geo tmstr r 3606 Bryant av N LA CROSSE IMPLEMENT CO A Hirsheimer  Pres; M H Davis Sec and Treas Agri- cultural Implements Vehicles Imperi- al and Deal Automobiles 316-330 3d av N tels T-S 406 N W Main 671,b
+Chas,Lacy,,eng,,minneapolis_1910_batch_6.json,Lacy Chas eng r 631 Monroe,631,Monroe,r
+Fred,Lacy,,trav,agt,minneapolis_1910_batch_6.json,"""Fred trav agt r 3308 Grand av",3308,Grand av,r
+John A,Lacy,,actor,,minneapolis_1910_batch_6.json,"""John A actor b 2721 Bloomington av",2721,Bloomington av,b
+Maria C,Lacy,Phineas,,,minneapolis_1910_batch_6.json,"""Maria C (wid Phineas) b 3308 Grand av",3308,Grand av,b
+Phineas B,Lacy,,clk,,minneapolis_1910_batch_6.json,"""Phineas B clk r 2812 Harriet av",2812,Harriet av,r
+Wm E,Lacy,,solr,,minneapolis_1910_batch_6.json,"""Wm E solr rms 43 S 11th",43,S 11th,rms
+Geo W,Ladcock,,pkr,,minneapolis_1910_batch_6.json,Ladcock Geo W pkr r 1411 Nicollet av LADD CHARLES C.,1411,Nicollet av LADD CHARLES C,r
+Erick,Feed,,cigarmkr,,minneapolis_1910_batch_6.json,"""Erick cigarmkr r 3647 Dupont av N",3647,Dupont av N,r
+Greeley,Feed,,student,,minneapolis_1910_batch_6.json,"""Greeley student b 1445 St Anthony pkway",1445,St Anthony pkway,b
+Wm H,Joseph,,eng,,minneapolis_1910_batch_6.json,"""Wm H eng r 2710 Polk",2710,Polk,r
+Mrs E,Laddison,,lizabeth,,minneapolis_1910_batch_6.json,Laddison Mrs Elizabeth r 1320 Nicollet av,1320,Nicollet av,r
+Woolens,Wholesale,,210,Andrus Bldg tels T-S 903 N W Main 903,minneapolis_1910_batch_6.json,Wholesale Woolens 210 Andrus Bldg tels T-S 903 N W Main 903 r 3106 2d av S tel N W South 1340,3106,2d av S tel N W South 1340,r
+Mrs A,Lade,,manda,,minneapolis_1910_batch_6.json,Lade Mrs Amanda r 1623 N 6th,1623,N 6th,r
+Fred E,Lade,,clk,,minneapolis_1910_batch_6.json,"""Fred E clk b 1623 N 6th",1623,N 6th,b
+Hugo H,Lade,,civ,eng,minneapolis_1910_batch_6.json,"""Hugo H civ eng b 1623 N 6th",1623,N 6th,b
+Peter,Ladeberg,,car,repr,minneapolis_1910_batch_6.json,Ladeberg Peter car repr b 2025 17th av S,2025,17th av S,b
+Arthur F,Ladeen,,clk,,minneapolis_1910_batch_6.json,Ladeen Arthur F clk r 2119 Marshall,2119,Marshall,r
+Oscar F,Ladeen,,pkr,,minneapolis_1910_batch_6.json,"""Oscar F pkr r 311 N E Main",311,N E Main,r
+Ole,Ladel,,carp,,minneapolis_1910_batch_6.json,Ladel Ole carp r 3419 18th av S LaDell Sophia mach opr 4502 29th av S,3419,18th av S LaDell Sophia mach opr 4502 29th av S,r
+Chas F,Ladendorf,,live,stock,minneapolis_1910_batch_6.json,Ladendorf Chas F live stock r 4122 Hia- watha av Henry painter r 2940 Minnehaha av,4122,Hia- watha av Henry painter r 2940 Minnehaha av,r
+Jacob,Lader,,carp,,minneapolis_1910_batch_6.json,Lader Jacob carp r 400 Emerson av N,400,Emerson av N,r
+Peter,Laderberg,,car,repr,minneapolis_1910_batch_6.json,Laderberg Peter car repr rms 2025 17th av S,2025,17th av S,rms
+Wm,Laderman,,,,minneapolis_1910_batch_6.json,Laderman Wm r 818 Dupont av N,818,Dupont av N,r
+Frank F,Ladwig,,cabtmkr,,minneapolis_1910_batch_6.json,Ladwig Frank F cabtmkr r 1316 Univer- sity av NE,1316,Univer- sity av NE,r
+Herman R,Ladwig,,waiter,,minneapolis_1910_batch_6.json,"""Herman R waiter r 201 4th av NE "" John lab b 1121 N E 4th",201,"4th av NE "" John lab b 1121 N E 4th",r
+Joseph P,Ladwig,,waxbldr,Printers Supply Co,minneapolis_1910_batch_6.json,"""Joseph P waxbldr Printers Supply Co b 1121 N E 4th",1121,N E 4th,b
+Martha,Ladwig,,weaver,,minneapolis_1910_batch_6.json,"""Martha weaver b 1121 N E 4th 66 Oscar fireman b 1834 Franklin av E",1121,N E 4th 66 Oscar fireman b 1834 Franklin av E,b
+Mathew,Laeppsta,,carp,,minneapolis_1910_batch_6.json,Laeppsta Mathew carp b 6112 Western av,6112,Western av,b
+Wm J,Laeppsta,Laderman & Brill,r,,minneapolis_1910_batch_6.json,"""Wm Jr (Laderman & Brill) b 801 Du- Lafans Walter S dentist 210 pont av N ""& Brill (Wm Laderman Jr A...",801,"Du- Lafans Walter S dentist 210 pont av N ""& Brill (Wm Laderman Jr Abraham Brill) meats 1012 8th av N",b
+Geo,Ladford,,,,minneapolis_1910_batch_6.json,Ladford Geo b 817 26th av NE,817,26th av NE,b
+Robt P,Ladford,,lab,,minneapolis_1910_batch_6.json,"""Robt P lab r 817 26th av NE",817,26th av NE,r
+Elson,Lading,,repr,T G Domos,minneapolis_1910_batch_6.json,Lading Elson repr T G Domos rms 2611 N 3d,2611,N 3d,rms
+Arthur E,Ladkins,,clk,,minneapolis_1910_batch_6.json,Ladkins Arthur E clk r 1411 Nicollet av,1411,Nicollet av,r
+Fire I,Mutual,,ns,Co,minneapolis_1910_batch_6.json,Mutual Fire Ins Co rms 901 Chicago av LaDoucer Joseph tinner b 901 1st av N,901,Chicago av LaDoucer Joseph tinner b 901 1st av N,rms
+John,Ladsok,,tmstr,,minneapolis_1910_batch_6.json,Ladsok John tmstr rms 1413 S 3d,1413,S 3d,rms
+Anna,Ladt,Joseph,folder,,minneapolis_1910_batch_6.json,"Ladt Anna folder b 246 23d av N "" Julia (wid Joseph) r 246 23d av N",246,"23d av N "" Julia  r 246 23d av N",b
+Michael,Ladt,,helper,,minneapolis_1910_batch_6.json,"""Michael helper b 246 23d av N LaDuc Benj J carp r 4628 Upton av S LaDue see also Le Doux and Le Duk...",246,23d av N LaDuc Benj J carp r 4628 Upton av S LaDue see also Le Doux and Le Duke,b
+John,Ladt,Walker Carpet Cleaning Works,r,S,minneapolis_1910_batch_6.json,"""John r S (Walker Carpet Cleaning Works) r 2721 Bryant av S",2721,Bryant av S,r
+Kate S,Ladt,,mach,opr,minneapolis_1910_batch_6.json,"""Kate S mach opr b 4319 Stevens av.",4319,Stevens av,b
+Mabel,Ladt,,student,,minneapolis_1910_batch_6.json,"""Mabel student b 2721 Bryant av S",2721,Bryant av S,b
+Nelson V,Ladt,,student,,minneapolis_1910_batch_6.json,"""Nelson V student rms 1116 SE 7th",1116,SE 7th,rms
+Newell S,Ladt,,clk,M O Walker,minneapolis_1910_batch_6.json,"""Newell S clk M O Walker b 401 James av N",401,James av N,b
+Olive E,Ladt,Daniel G,envelope,mkr,minneapolis_1910_batch_6.json,"""Olive E (wid Daniel G) envelope mkr b 4319 Stevens av",4319,Stevens av,b
+Antoine J,Ladt,,solr,L J Mueller Furnace Co,minneapolis_1910_batch_6.json,"""Antoine J solr L J Mueller Furnace Co r 2020 Fremont av S",2020,Fremont av S,r
+Mrs B,Ladt,,ertha,,minneapolis_1910_batch_6.json,"""Mrs Bertha r 316 S 8th",316,S 8th,r
+Chas J,Ladt,,helper,,minneapolis_1910_batch_6.json,"""Chas J helper r 546 7th av N """,546,"7th av N """,r
+Harvey H,Emory,,clk,N W National Bank,minneapolis_1910_batch_6.json,"""Harvey H clk N W National Bank b 515 E Lake """,515,"E Lake """,b
+Martin,Henry,,tmstr,,minneapolis_1910_batch_6.json,"""Martin tmstr r 546 7th av N. Ladwein see Ledwein Ladwig see also Ludwig",546,7th av N,r
+August,Henry,,lab,,minneapolis_1910_batch_6.json,"""August lab r 1121 N E 4th",1121,N E 4th,r
+Edward C,Henry,,clk,Bradshaw Bros,minneapolis_1910_batch_6.json,"""Edward C clk Bradshaw Bros b 201 4th av NE Pillsbury Bldg r 4016 Aldrich av S. LaFarrier Alfred blk...",201,4th av NE Pillsbury Bldg r 4016 Aldrich av S,b
+Eli,Lafave,,saloon,56 Central av,minneapolis_1910_batch_6.json,Lafave Eli saloon 56 Central av r 28 same,28,same,r
+James A,Lafavor,,tmstr,,minneapolis_1910_batch_6.json,Lafavor James A tmstr b 1811 Clinton av,1811,Clinton av,b
+Wm H,Lafavor,,tmstr,,minneapolis_1910_batch_6.json,"""Wm H tmstr r 1811 Clinton av",1811,Clinton av,r
+School,Lafayette,,ns,Laurel av bet Aldrich and Lyndale avs N examiner,minneapolis_1910_batch_6.json,"""School ns Laurel av bet Aldrich and Lyndale avs N examiner b 1508 LaFerriere Amanda Plymouth av",1508,LaFerriere Amanda Plymouth av,b
+Minnie,Lafayette,,boxer,,minneapolis_1910_batch_6.json,"""Minnie boxer b 1508 Plymouth av LaFerte Arthur clk Plant Rubber Co b 201 E 25th",1508,Plymouth av LaFerte Arthur clk Plant Rubber Co b 201 E 25th,b
+Joseph E,Lafayette,LaFerte & Coleman,,,minneapolis_1910_batch_6.json,"""Joseph E (LaFerte & Coleman) r 201 E 25th ""& Coleman (Joseph E LaFerte Thos E Coleman) barbers Glob...",201,"E 25th ""& Coleman (Joseph E LaFerte Thos E Coleman) barbers Globe bldg",r
+John,Lafex,,,,minneapolis_1910_batch_6.json,Lafex John rms 715 N 4th,715,N 4th,rms
+Rebecca,Laff,,cigarmkr,,minneapolis_1910_batch_6.json,Laff Rebecca cigarmkr b 707 6th av N,707,6th av N,b
+Nelson A,Lafferior,,lab,,minneapolis_1910_batch_6.json,"""Nelson A lab rms 425 Madison",425,Madison,rms
+Ollie L,Lafferior,,brakeman,,minneapolis_1910_batch_6.json,"""Ollie L brakeman r 425 Madison",425,Madison,r
+Catherine,Lafferty,,,,minneapolis_1910_batch_6.json,"Lafferty Catherine b 119 1st av NE Chas r 119 1st av NE """,119,"1st av NE Chas r 119 1st av NE """,b
+Earl,Lafferty,,switchman,,minneapolis_1910_batch_6.json,"""Earl switchman rms 723 5th av SE",723,5th av SE,rms
+Frank G,Lafferty,,auto,repr,minneapolis_1910_batch_6.json,"""Frank G auto repr rms 1112 1st av S",1112,1st av S,rms
+Sarah,Lafferty,,,,minneapolis_1910_batch_6.json,"""Sarah b 119 1st av N E",119,1st av N E,b
+Anna,Laffin,,waiter,,minneapolis_1910_batch_6.json,Laffin Anna waiter b 701 Western av,701,Western av,b
+Geo S,Laffin,,mach,opr,minneapolis_1910_batch_6.json,"""Geo S mach opr b 701 Western av",701,Western av,b
+James,Laffin,,eng,,minneapolis_1910_batch_6.json,"""James eng rms 126 N 7th",126,N 7th,rms
+Maud,Laffin,,folder,,minneapolis_1910_batch_6.json,"""Maud folder b 4301 Emerson av N Lafler see also Leffler and Loeffler",4301,Emerson av N Lafler see also Leffler and Loeffler,b
+Wm F,Laffin,,miller,,minneapolis_1910_batch_6.json,"""Wm F miller r 318 Cleveland LaFleur Edward mach opr b 1720 N E Washn",318,Cleveland LaFleur Edward mach opr b 1720 N E Washn,r
+Frank F,Laffin,,broommkr,,minneapolis_1910_batch_6.json,"""Frank F broommkr r 1019 N 4th 66 Geo helper b 2426 E 26th",1019,N 4th 66 Geo helper b 2426 E 26th,r
+Geo E,Laffin,LaFleur & Johnson,,,minneapolis_1910_batch_6.json,"""Geo E (LaFleur & Johnson) r 306 Uni- versity av SE",306,Uni- versity av SE,r
+Herman B,Laffin,,vocalist,,minneapolis_1910_batch_6.json,"""Herman B vocalist b 317 N'E Main",317,N'E Main,b
+John B,Laffin,,A,"clk Dodson, Fisher, Brock- mann Cor 1720 N E Washn "" Mary",minneapolis_1910_batch_6.json,"""John B A clk Dodson, Fisher, Brock- mann Cor 1720 N E Washn "" Mary b 215 Broadway",215,Broadway,b
+Oliver,Louis,,musician,,minneapolis_1910_batch_6.json,"""Oliver musician b 619 Lincoln",619,Lincoln,b
+Anna,Louis,Zebidie,,,minneapolis_1910_batch_6.json,"""Anna (wid Zebidie) r 302 20th av N",302,20th av N,r
+Ebbie R,Louis,,salsn,Natl Electric Mnfg Co,minneapolis_1910_batch_6.json,"""Ebbie R salsn Natl Electric Mnfg Co b 302 20th av N",302,20th av N,b
+Edward J,Louis,,propr,"Mpls School of Motor- ing r flat A 529 S 9th "" Napoleon lab 3045 Pillsbury av Co",minneapolis_1910_batch_6.json,"""Edward J propr Mpls School of Motor- ing r flat A 529 S 9th "" Napoleon lab 3045 Pillsbury av Co r 1...",145,16th av NE,r
+Mathias,Lagerstedt,,plasterer,,minneapolis_1910_batch_6.json,Lagerstedt Mathias plasterer rms 719 9th av S,719,9th av S,rms
+Ansgar T,Lagerstrom,,,,minneapolis_1910_batch_6.json,Lagerstrom Ansgar T b 2310 Emerson av S,2310,Emerson av S,b
+Cornelius A,Lagerstrom,,forester,,minneapolis_1910_batch_6.json,"""Cornelius A forester b 2310 Emerson av S "" "" "" C Ernst vice pres Daniels-Jones Co b 1407 2d av S",2310,"Emerson av S "" "" "" C Ernst vice pres Daniels-Jones Co b 1407 2d av S",b
+Zelma M,Lydia,Wm H,music,tchr,minneapolis_1910_batch_6.json,"""Zelma M music tchr b 3226 N 3d LaFore Geo J bkpr Wyman Partridge & Co b 4427 Pillsbury av "" Mary (w...",3226,"N 3d LaFore Geo J bkpr Wyman Partridge & Co b 4427 Pillsbury av "" Mary  b 4427 Pillsbury av",b
+Pearl M,Lydia,,mach,opr,minneapolis_1910_batch_6.json,"""Pearl M mach opr b 248 4th av S",248,4th av S,b
