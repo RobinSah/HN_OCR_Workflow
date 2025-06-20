@@ -2,11 +2,11 @@ from google.cloud import documentai_v1 as documentai
 from google.api_core.client_options import ClientOptions
 
 # Configuration (change accordingly)
-project_id = "nth-baton-463401-q5"
-location = "us"
-processor_id = "c9895684f7a6b03c"
-gcs_input_uri = "gs://minps_1910/minneapolis_1910_input/"
-gcs_output_uri = "gs://minps_1910/minneapolis_1910_output/"
+project_id = <your_project_id>
+location = <location_of_the_project>
+processor_id = <your_processor_id>
+gcs_input_uri = ".../minneapolis_1910_input/"
+gcs_output_uri = ".../minneapolis_1910_output/"
 
 # Initialize Document AI Client
 opts = ClientOptions(api_endpoint=f"us-documentai.googleapis.com")
