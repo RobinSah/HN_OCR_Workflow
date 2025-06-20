@@ -1,0 +1,109 @@
+Absolutely! Here’s a concise, **professional workflow summary** of your project for submission, with technical details, rationale, challenges, and achievements:
+
+---
+
+## **Project Workflow: Minneapolis City Directory Resident Extraction (1900–1950)**
+
+### **1. Image Scraping with `scraper.py`**
+
+* **Objective:** Download high-quality directory page images (average size: 1.3MB) from the ResCarta web viewer for a single Minneapolis directory year (e.g., 1910).
+* **Outcome:** Collected over 2,100 images per year in an automated, repeatable way.
+
+### **2. Efficient Batch Creation with `pdf_batcher.py`**
+
+* **Objective:** Reduce API call volume and optimize costs for OCR processing by grouping images into PDFs (\~200 pages per batch).
+* **Rationale:**
+
+  * Direct API call per image would rapidly exhaust quota and increase cost.
+  * Larger PDFs enable Document AI batch processing, minimizing per-page costs.
+* **Outcome:** Created \~11 batch PDFs per year, each ready for scalable processing.
+
+### **3. Cloud OCR Processing with Google Document AI**
+
+* **Steps:**
+
+  * Uploaded all PDFs to a Google Cloud Storage bucket.
+  * Used Document AI (Google Cloud Vision) for asynchronous OCR batch processing.
+  * Mistral OCR was evaluated (excellent accuracy, but **no batch support** and higher manual effort). Document AI offered better scalability and integration for large batches.
+* **Results:**
+
+  * Received page-level OCR JSON outputs for each PDF within \~30 minutes.
+  * Achieved a reliable, cost-effective pipeline for large-scale OCR.
+
+### **4. Text Extraction and JSON Merging**
+
+* **Steps:**
+
+  * Combined hundreds of page-level JSONs per PDF into single, consolidated text-only JSON files using metadata (file/batch order).
+  * Retained only the extracted text relevant for downstream resident entry extraction, reducing storage size and improving clarity.
+
+### **5. Initial NLP Parsing for Resident Extraction**
+
+* **Tools:** Used custom Python scripts and regex/NLP to extract structured resident entries (first/last name, spouse, address, occupation, etc.).
+* **Challenges:**
+
+  * Parsing errors due to historical abbreviations, OCR noise, and directory formatting quirks.
+  * Organization/business names were sometimes misclassified as residents.
+* **Outcome:** Achieved partial extraction but with limited accuracy and recall, requiring advanced disambiguation.
+
+### **6. Retrieval-Augmented Generation (RAG) Pipeline for Enhanced Accuracy**
+
+* **Tech Stack:**
+
+  * Used FAISS for vector similarity search on extracted text chunks.
+  * Applied GPT (via API) for natural language understanding, field cleaning, and error correction.
+* **Workflow:**
+
+  * Embedded entries for semantic search (e.g., verifying addresses/names).
+  * Used GPT to split ambiguous lines, fix formatting errors, and filter out non-resident (company/organization) entries.
+* **Achievements:**
+
+  * Significantly improved precision and recall of resident extraction.
+  * Reduced manual review by automating correction of difficult OCR and formatting cases.
+  * Achieved scalable, high-quality structuring of historical city directory data.
+
+---
+
+### **Key Challenges**
+
+* **Data Volume:** Processing thousands of large, high-resolution images per year efficiently.
+* **Historical Format:** Parsing historical abbreviations, line-wrapping, and multi-column layouts.
+* **API Cost Management:** Balancing batch size, speed, and call limits for cost-effective OCR.
+* **Entity Disambiguation:** Distinguishing between people and organizations in noisy OCR outputs.
+* **Accuracy:** Maximizing extraction accuracy across diverse years (1900–1950).
+
+---
+
+### **Major Achievements**
+
+* **Automated End-to-End Pipeline:** From scraping to structured JSON extraction.
+* **Batch-Optimized OCR:** Reduced API costs and improved processing speed.
+* **Hybrid NLP + RAG Approach:** Used advanced AI to surpass regex/NLP limitations.
+* **Reusable & Scalable:** Pipeline designed for future years and other cities.
+
+---
+
+### **Summary Diagram**
+
+Chronology
+1. scraper.py
+2. pdf_batcher.py
+3. run_document_ai_batch.py
+4. merge_docai_outputs.py
+5. simplified_merge_json.py
+6. parse_ocr_entries.py
+
+```mermaid
+flowchart TD
+  A[Scraper.py<br>Download Images (2100+ images)] --> B[PDF_Batcher.py<br>Batch PDFs]
+  B --> C[run_document_ai_batch.py<br>Upload to Google Cloud Bucket]
+  C --> D[run_document_ai_batch.py(same file as C)<br>Document AI OCR Batch Processing]
+  D --> E[merge_docai_outputs.py<br>Merge JSONs file provided by Document AI]
+  E --> F[simplified_merge_json.py<br>Extract Text only from massive metadata]
+  F --> G[parse_ocr_entries.py<br>RAG Pipeline with FAISS + GPT]
+  G --> H[Clean Structured JSON]
+```
+
+---
+
+
