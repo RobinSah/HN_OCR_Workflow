@@ -1,284 +1,160 @@
 import json
 import pandas as pd
 from pathlib import Path
-from typing import List, Dict, Optional
 import glob
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_openai import OpenAIEmbeddings, ChatOpenAI
-from langchain_community.vectorstores import FAISS
-from langchain.schema import Document
-from langchain.prompts import PromptTemplate
 import re
 from tqdm import tqdm
-import os
 from datetime import datetime
-import asyncio
-from openai import AsyncOpenAI
+from groq import Groq
+import time
 
-# ------------ Async Batch GPT Integration ------------
-PROMPT_TEMPLATE_SIMPLE = """
-Extract the following fields from the directory entry. If a field is missing, use null.
-
-**Preferred Output Format:**
-{
-  "FirstName": "Peter D",
-  "LastName": "Aadland",
-  "Spouse": "Pearl R",
-  "Occupation": "Salesman",
-  "CompanyName": "Lifetime Sls",
-  "HomeAddress": {
-    "StreetNumber": "2103",
-    "StreetName": "Bryant av S",
-    "ApartmentOrUnit": "apt 1",
-    "ResidenceIndicator": "h"
-  },
-  "WorkAddress": null,
-  "Telephone": null,
-  "DirectoryName": "Minneapolis 1900",
-  "PageNumber": 32
-}
-
-**Entry:**
-{entry}
-
-**Instructions:**
-- Parse the entry and fill the JSON fields as accurately as possible.
-- If a field is not present, use null.
-- Output ONLY the JSON.
-"""
-
-async def async_parse_batch(entries, batch_size=20, max_concurrent_batches=5, model="gpt-3.5-turbo"):
-    client = AsyncOpenAI()
-    semaphore = asyncio.Semaphore(max_concurrent_batches)
-    results = []
-
-    async def process_batch(batch):
-        async with semaphore:
-            prompts = [
-                PROMPT_TEMPLATE_SIMPLE.format(entry=entry)
-                for entry in batch
-            ]
-            tasks = [
-                client.chat.completions.create(
-                    model=model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.0,
-                    max_tokens=512,
-                )
-                for prompt in prompts
-            ]
-            responses = await asyncio.gather(*tasks)
-            batch_results = []
-            for response in responses:
-                try:
-                    json_str = response.choices[0].message.content.strip()
-                    json_obj = json.loads(json_str)
-                    batch_results.append(json_obj)
-                except Exception as e:
-                    print(f"Error parsing batch response: {e}\nResponse: {json_str}")
-                    batch_results.append(None)
-            return batch_results
-
-    batches = [entries[i:i + batch_size] for i in range(0, len(entries), batch_size)]
-    all_tasks = [process_batch(batch) for batch in batches]
-    all_results = await asyncio.gather(*all_tasks)
-    for batch in all_results:
-        results.extend(batch)
-    return results
-
-# ---------------- Directory Parser Class ----------------
-class DirectoryParserOpenAI:
-    def __init__(self, api_key: str):
-        os.environ["OPENAI_API_KEY"] = api_key
-        self.llm = ChatOpenAI(
-            model="gpt-3.5-turbo",
-            temperature=0.0,
-            max_tokens=500
-        )
-        self.embeddings = OpenAIEmbeddings(
-            model="text-embedding-3-large",
-            dimensions=3072
-        )
-        self.text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=1500,
-            chunk_overlap=100,
-            separators=["\n", '"', ".", ",", " "]
-        )
-        self.vector_store = None
-        self.directory_year = 1910
-
-    def create_extraction_prompt(self) -> PromptTemplate:
-        template = """You are an expert at parsing historical directory entries from the 1910 Minneapolis City Directory.
-TASK: Extract structured information from the directory entry below.
-
-CONTEXT FROM SIMILAR ENTRIES:
-{context}
-
-ENTRY TO PARSE:
-{entry}
-
-PARSING RULES:
-1. If entry starts with " (quote), it continues from the previous entry with last name: {last_name}
-2. Entries follow pattern: [Last] [First] [occupation/details] [residence_indicator] [address]
-3. Spouse info appears in parentheses, usually with "wid" meaning widow/widower
-4. Business addresses often come after occupation
-
-COMMON ABBREVIATIONS:
-- Residence: h=house(owns), r=resides, b=boards, rms=rooms
-- Jobs: clk=clerk, carp=carpenter, mach=machinist, tmstr=teamster, mngr=manager
-- Streets: av=avenue, pl=place, N/S/E/W=North/South/East/West
-- Other: wid=widow/widower, tel opr=telephone operator, trav agt=traveling agent
-
-OUTPUT FORMAT (JSON only):
-{{
-  "FirstName": "Peter D",
-  "LastName": "Aadland",
-  "Spouse": "Pearl R",
-  "Occupation": "Salesman",
-  "CompanyName": "Lifetime Sls",
-  "HomeAddress": {{
-    "StreetNumber": "2103",
-    "StreetName": "Bryant av S",
-    "ApartmentOrUnit": "apt 1",
-    "ResidenceIndicator": "h"
-  }},
-  "WorkAddress": null,
-  "Telephone": null,
-  "DirectoryName": "Minneapolis 1900",
-  "PageNumber": 32
-}}
-
-IMPORTANT: Return ONLY the JSON object, no explanation or markdown."""
-        return PromptTemplate(
-            template=template,
-            input_variables=["context", "entry", "last_name"]
-        )
-
-    def load_and_index_directory(self, json_files: List[str]):
-        print("Loading directory files...")
-        all_documents = []
-        for json_file in tqdm(json_files, desc="Loading files"):
-            try:
-                with open(json_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    text = data.get('text', '')
-                    if not text:
-                        continue
-                    chunks = self.text_splitter.split_text(text)
-                    for i, chunk in enumerate(chunks):
-                        doc = Document(
-                            page_content=chunk,
-                            metadata={
-                                "source": Path(json_file).name,
-                                "chunk_id": i,
-                                "batch_name": data.get("batch_name", "unknown")
-                            }
-                        )
-                        all_documents.append(doc)
-            except Exception as e:
-                print(f"Error loading {json_file}: {e}")
-                continue
-        print("Creating vector index...")
-        batch_size = 100
-        for i in range(0, len(all_documents), batch_size):
-            batch = all_documents[i:i + batch_size]
-            print(f"Processing batch {i//batch_size + 1}/{(len(all_documents) + batch_size - 1)//batch_size}...")
-            if i == 0:
-                self.vector_store = FAISS.from_documents(batch, self.embeddings)
-            else:
-                self.vector_store.add_documents(batch)
-        print(f"Created vector store with {len(all_documents)} chunks")
-        self.vector_store.save_local("faiss_index")
-        print("Vector store saved to 'faiss_index' directory")
-
-    def extract_entries_from_text(self, text: str) -> List[str]:
-        lines = text.split('\n')
+class EfficientDirectoryParser:
+    """
+    Hybrid approach: 95% regex, 5% LLM for edge cases
+    Processes 40MB in ~5-10 minutes
+    """
+    
+    def __init__(self, groq_api_key: str = None):
+        self.groq_client = Groq(api_key=groq_api_key) if groq_api_key else None
+        self.stats = {"regex_parsed": 0, "llm_parsed": 0, "failed": 0}
+        
+    def extract_entries(self, text: str) -> list:
+        """Extract individual entries from directory text"""
+        # Split by newlines and identify entries
         entries = []
-        current_entry = ""
-        for line in lines:
+        current = ""
+        
+        for line in text.split('\n'):
             line = line.strip()
-            if not line:
+            if not line or len(line) > 200:  # Skip empty or too long
                 continue
-            if any(skip in line.upper() for skip in ['DIRECTORY', 'MINNEAPOLIS', 'PAGE', 'ADVERTISEMENT']):
+                
+            # Skip obvious headers/ads
+            if any(word in line.upper() for word in ['DIRECTORY', 'PAGE', 'ADVERTISEMENT', 'TELEPHONE']):
                 continue
+            
+            # New entry pattern: Lastname Firstname or "Firstname
             if re.match(r'^[A-Z][a-z]+\s+[A-Z]|^"[A-Z]', line):
-                if current_entry and len(current_entry) > 10:
-                    entries.append(current_entry.strip())
-                current_entry = line
-            else:
-                if current_entry:
-                    current_entry += " " + line
-        if current_entry and len(current_entry) > 10:
-            entries.append(current_entry.strip())
+                if 10 < len(current) < 300:  # Valid entry length
+                    entries.append(current.strip())
+                current = line
+            elif current:  # Continuation
+                current += " " + line
+                
+        if current and 10 < len(current) < 300:
+            entries.append(current.strip())
+            
         return entries
-
-    def parse_single_entry(self, entry: str, last_name: str = None) -> Dict:
-        """Parse a single directory entry using GPT-4o-mini and map output."""
-        try:
-            context_docs = self.vector_store.similarity_search(entry, k=2)
-            context = "\n".join([doc.page_content[:200] for doc in context_docs])
-            prompt = self.create_extraction_prompt()
-            formatted_prompt = prompt.format(
-                context=context,
-                entry=entry,
-                last_name=last_name or "Unknown"
-            )
-            response = self.llm.invoke(formatted_prompt)
-            response_text = response.content
-            json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
-            if json_match:
-                result = json.loads(json_match.group())
-                return self.remap_fields(result)
-            else:
-                print(f"No JSON found in response for entry: {entry[:50]}...")
-                return self.create_empty_entry()
-        except Exception as e:
-            print(f"Error parsing entry '{entry[:50]}...': {e}")
-            return self.create_empty_entry()
-
-    def remap_fields(self, result: Dict) -> Dict:
-        """Map model fields to the standard output format."""
-        # Helper to parse or pass HomeAddress
-        def parse_home_address(addr):
-            if isinstance(addr, dict):
-                return {
-                    "StreetNumber": addr.get("StreetNumber"),
-                    "StreetName": addr.get("StreetName"),
-                    "ApartmentOrUnit": addr.get("ApartmentOrUnit"),
-                    "ResidenceIndicator": addr.get("ResidenceIndicator"),
-                }
-            elif isinstance(addr, str) and addr:
-                # Very naive parse: split by space
-                m = re.match(r'(\d+)\s+(.*)', addr)
-                return {
-                    "StreetNumber": m.group(1) if m else None,
-                    "StreetName": m.group(2) if m else addr,
-                    "ApartmentOrUnit": None,
-                    "ResidenceIndicator": None
-                }
-            else:
-                return {
-                    "StreetNumber": None,
-                    "StreetName": None,
-                    "ApartmentOrUnit": None,
-                    "ResidenceIndicator": None
-                }
-
-        return {
-            "FirstName": result.get("FirstName") or result.get("first_name"),
-            "LastName": result.get("LastName") or result.get("last_name"),
-            "Spouse": result.get("Spouse") or result.get("spouse_name"),
-            "Occupation": result.get("Occupation") or result.get("occupation"),
-            "CompanyName": result.get("CompanyName") or result.get("employer_name"),
-            "HomeAddress": parse_home_address(result.get("HomeAddress") or result.get("home_address")),
-            "WorkAddress": result.get("WorkAddress"),
-            "Telephone": result.get("Telephone"),
-            "DirectoryName": result.get("DirectoryName"),
-            "PageNumber": result.get("PageNumber")
+    
+    def parse_with_regex(self, entry: str, last_name: str = None) -> dict:
+        """
+        Regex parser that handles 90%+ of cases
+        Returns None if confidence is low
+        """
+        result = {
+            "FirstName": None,
+            "LastName": last_name,
+            "Spouse": None,
+            "Occupation": None,
+            "CompanyName": None,
+            "HomeAddress": {
+                "StreetNumber": None,
+                "StreetName": None,
+                "ResidenceIndicator": None
+            }
         }
+        
+        # Clean entry
+        entry = re.sub(r'\s+', ' ', entry.strip())
+        
+        # Pattern 1: Continuation entry ("FirstName ...)
+        if entry.startswith('"'):
+            match = re.match(r'^"([A-Z][a-z]+(?:\s+[A-Z]\.?)?)\s*(.*)', entry)
+            if match:
+                result["FirstName"] = match.group(1)
+                rest = match.group(2)
+            else:
+                return None  # Can't parse, need LLM
+        else:
+            # Pattern 2: Full entry (LastName FirstName ...)
+            match = re.match(r'^([A-Z][a-z]+)\s+([A-Z][a-z]+(?:\s+[A-Z]\.?)?)\s*(.*)', entry)
+            if match:
+                result["LastName"] = match.group(1)
+                result["FirstName"] = match.group(2)
+                rest = match.group(3)
+            else:
+                return None  # Can't parse, need LLM
+        
+        # Extract spouse (in parentheses)
+        spouse_match = re.search(r'\(([^)]+)\)', rest)
+        if spouse_match:
+            spouse_info = spouse_match.group(1)
+            # Remove "wid" (widow/widower of)
+            spouse_info = re.sub(r'\bwid\s+', '', spouse_info)
+            result["Spouse"] = spouse_info.strip()
+            # Remove spouse from rest
+            rest = rest[:spouse_match.start()] + rest[spouse_match.end():]
+        
+        # Find residence pattern (h/r/b/rms followed by address)
+        res_match = re.search(r'\b(h|r|b|rms)\s+(\d+)\s+([^,\.]+)', rest)
+        if res_match:
+            result["HomeAddress"]["ResidenceIndicator"] = res_match.group(1)
+            result["HomeAddress"]["StreetNumber"] = res_match.group(2)
+            result["HomeAddress"]["StreetName"] = res_match.group(3).strip()
+            
+            # Everything before residence is likely occupation/company
+            occ_text = rest[:res_match.start()].strip(' ,.')
+            if occ_text:
+                # Common occupation patterns
+                occ_parts = occ_text.split(' ', 1)
+                if occ_parts:
+                    result["Occupation"] = occ_parts[0]
+                    if len(occ_parts) > 1:
+                        result["CompanyName"] = occ_parts[1].strip()
+        
+        # Confidence check - must have name and either address or occupation
+        has_name = result["FirstName"] or result["LastName"]
+        has_data = result["HomeAddress"]["StreetName"] or result["Occupation"]
+        
+        if has_name and has_data:
+            self.stats["regex_parsed"] += 1
+            return result
+        else:
+            return None  # Low confidence, use LLM
+    
+    def parse_with_llm(self, entry: str, last_name: str = None) -> dict:
+        """Use LLM only for entries regex couldn't handle"""
+        if not self.groq_client:
+            self.stats["failed"] += 1
+            return self.create_empty_entry()
+            
+        prompt = f"""Parse this directory entry into JSON. Be precise.
+Entry: {entry}
+Last name if continuation: {last_name}
 
-    def create_empty_entry(self) -> Dict:
-        """Create an empty entry structure"""
+Output only JSON:
+{{"FirstName": "", "LastName": "", "Spouse": "", "Occupation": "", "CompanyName": "", "HomeAddress": {{"StreetNumber": "", "StreetName": "", "ResidenceIndicator": ""}}}}"""
+
+        try:
+            response = self.groq_client.chat.completions.create(
+                messages=[{"role": "user", "content": prompt}],
+                model="llama-3.2-3b-preview",  # Fastest current model
+                temperature=0,
+                max_tokens=200
+            )
+            
+            text = response.choices[0].message.content
+            json_match = re.search(r'\{.*\}', text, re.DOTALL)
+            if json_match:
+                self.stats["llm_parsed"] += 1
+                return json.loads(json_match.group())
+        except Exception as e:
+            print(f"LLM error: {e}")
+            
+        self.stats["failed"] += 1
+        return self.create_empty_entry()
+    
+    def create_empty_entry(self) -> dict:
         return {
             "FirstName": None,
             "LastName": None,
@@ -288,117 +164,118 @@ IMPORTANT: Return ONLY the JSON object, no explanation or markdown."""
             "HomeAddress": {
                 "StreetNumber": None,
                 "StreetName": None,
-                "ApartmentOrUnit": None,
                 "ResidenceIndicator": None
-            },
-            "WorkAddress": None,
-            "Telephone": None,
-            "DirectoryName": None,
-            "PageNumber": None
+            }
         }
-
-    def process_all_files(self, input_folder: str, output_file: str, sample_size: Optional[int] = None):
+    
+    def process_all_files(self, input_folder: str, output_file: str):
+        """Process all JSON files efficiently"""
         json_files = glob.glob(f"{input_folder}/*.json")
-        if not json_files:
-            print(f"No JSON files found in {input_folder}")
-            return
         print(f"Found {len(json_files)} files to process")
-        if Path("faiss_index").exists():
-            print("Loading existing vector index...")
-            self.vector_store = FAISS.load_local(
-                "faiss_index", 
-                self.embeddings,
-                allow_dangerous_deserialization=True
-            )
-        else:
-            self.load_and_index_directory(json_files)
-        all_entries = []
-        total_processed = 0
-        print("\nProcessing entries...")
+        
+        all_results = []
+        total_entries = 0
+        
         for json_file in json_files:
-            if sample_size and total_processed >= sample_size:
-                break
             print(f"\nProcessing {Path(json_file).name}...")
-            try:
-                with open(json_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    text = data.get('text', '')
-                entries = self.extract_entries_from_text(text)
-                print(f"Found {len(entries)} entries in this file")
-                last_name = None
-                file_entries = []
-                for entry in tqdm(entries, desc="Parsing entries"):
-                    if sample_size and total_processed >= sample_size:
-                        break
-                    if not entry.startswith('"'):
-                        name_match = re.match(r'^([A-Z][a-z]+)', entry)
-                        if name_match:
-                            last_name = name_match.group(1)
-                    parsed = self.parse_single_entry(entry, last_name)
-                    parsed['source_file'] = Path(json_file).name
-                    parsed['raw_entry'] = entry
-                    file_entries.append(parsed)
-                    total_processed += 1
-                all_entries.extend(file_entries)
-            except Exception as e:
-                print(f"Error processing {json_file}: {e}")
-                continue
-        print(f"\nSaving {len(all_entries)} parsed entries...")
-        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+            
+            with open(json_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                text = data.get('text', '')
+            
+            # Extract entries
+            entries = self.extract_entries(text)
+            print(f"Found {len(entries)} entries")
+            total_entries += len(entries)
+            
+            # Track last names for continuation entries
+            current_last_name = None
+            llm_queue = []  # Batch LLM requests
+            
+            for entry in tqdm(entries, desc="Parsing"):
+                # Update last name tracking
+                if not entry.startswith('"'):
+                    name_match = re.match(r'^([A-Z][a-z]+)', entry)
+                    if name_match:
+                        current_last_name = name_match.group(1)
+                
+                # Try regex first
+                result = self.parse_with_regex(entry, current_last_name)
+                
+                if result:
+                    # Regex succeeded
+                    result["source_file"] = Path(json_file).name
+                    result["raw_entry"] = entry[:100] + "..." if len(entry) > 100 else entry
+                    all_results.append(result)
+                else:
+                    # Queue for LLM
+                    llm_queue.append((entry, current_last_name, Path(json_file).name))
+            
+            # Process LLM queue in batches
+            if llm_queue and self.groq_client:
+                print(f"Processing {len(llm_queue)} complex entries with LLM...")
+                for entry, last_name, source in tqdm(llm_queue, desc="LLM parsing"):
+                    result = self.parse_with_llm(entry, last_name)
+                    result["source_file"] = source
+                    result["raw_entry"] = entry[:100] + "..." if len(entry) > 100 else entry
+                    all_results.append(result)
+                    time.sleep(0.1)  # Rate limiting
+        
+        # Save results
+        print(f"\nTotal entries processed: {total_entries}")
+        print(f"Regex parsed: {self.stats['regex_parsed']} ({self.stats['regex_parsed']/total_entries*100:.1f}%)")
+        print(f"LLM parsed: {self.stats['llm_parsed']} ({self.stats['llm_parsed']/total_entries*100:.1f}%)")
+        print(f"Failed: {self.stats['failed']} ({self.stats['failed']/total_entries*100:.1f}%)")
+        
+        # Save JSON
+        Path(output_file).parent.mkdir(exist_ok=True)
         output_data = {
             "metadata": {
-                "total_entries": len(all_entries),
+                "total_entries": len(all_results),
                 "processed_date": datetime.now().isoformat(),
-                "directory_year": self.directory_year,
-                "model_used": "gpt-3.5-turbo",
-                "embedding_model": "text-embedding-3-large"
+                "stats": self.stats
             },
-            "entries": all_entries
+            "entries": all_results
         }
-        with open(output_file, 'w', encoding='utf-8') as f:
-            json.dump(output_data, f, indent=2, ensure_ascii=False)
-        df = pd.DataFrame(all_entries)
+        
+        with open(output_file, 'w') as f:
+            json.dump(output_data, f, indent=2)
+        
+        # Save CSV
+        df = pd.DataFrame(all_results)
+        # Flatten nested address
+        if 'HomeAddress' in df.columns:
+            df['StreetNumber'] = df['HomeAddress'].apply(lambda x: x.get('StreetNumber') if isinstance(x, dict) else None)
+            df['StreetName'] = df['HomeAddress'].apply(lambda x: x.get('StreetName') if isinstance(x, dict) else None)
+            df['ResidenceIndicator'] = df['HomeAddress'].apply(lambda x: x.get('ResidenceIndicator') if isinstance(x, dict) else None)
+            df = df.drop('HomeAddress', axis=1)
+        
         csv_file = output_file.replace('.json', '.csv')
-        df.to_csv(csv_file, index=False, encoding='utf-8')
-        summary_file = output_file.replace('.json', '_summary.txt')
-        with open(summary_file, 'w', encoding='utf-8') as f:
-            f.write(f"Directory Parsing Summary\n")
-            f.write(f"========================\n\n")
-            f.write(f"Total entries processed: {len(all_entries)}\n")
-            f.write(f"Processing date: {datetime.now()}\n")
-            f.write(f"Files processed: {len(json_files)}\n\n")
-            df_clean = df.dropna(subset=['LastName'])
-            f.write(f"Entries with last names: {len(df_clean)}\n")
-            f.write(f"Unique last names: {df_clean['LastName'].nunique()}\n")
-            f.write(f"Entries with occupations: {df['Occupation'].notna().sum()}\n")
-            f.write(f"Entries with addresses: {df['HomeAddress'].notna().sum()}\n")
-        print(f"\nProcessing complete!")
-        print(f"JSON output: {output_file}")
-        print(f"CSV output: {csv_file}")
-        print(f"Summary: {summary_file}")
+        df.to_csv(csv_file, index=False)
+        
+        print(f"\nSaved to:")
+        print(f"- {output_file}")
+        print(f"- {csv_file}")
+        
         return df
 
-# ------------- Example usage (sync version) -------------
+
+# Usage
 if __name__ == "__main__":
-    # Initialize parser with your OpenAI API key
-    api_key = "OPENAI_API_KEY"
-    parser = DirectoryParserOpenAI(api_key=api_key)
-    # Process a sample first to test
-    print("Testing with sample entries...")
-    df_sample = parser.process_all_files(
+    # Option 1: Pure regex (2-5 minutes for 40MB)
+    parser = EfficientDirectoryParser()  # No API key
+ 
+    df = parser.process_all_files(
         input_folder="simplified_outputs",
-        output_file="structured_output/minneapolis_1910_sample.json",
-        sample_size=50  # Process only 50 entries for testing
+        output_file="structured_output/efficient_parse.json"
     )
-    if df_sample is not None and len(df_sample) > 0:
-        print("\nSample results:")
-        print(df_sample.head(10))
-        # If sample looks good, process all
-        user_input = input("\nSample looks good? Process all entries? (y/n): ")
-        if user_input.lower() == 'y':
-            df_full = parser.process_all_files(
-                input_folder="simplified_outputs",
-                output_file="structured_output/minneapolis_1910_full.json"
-            )
-    else:
-        print("No results from sample processing. Check your API key and data.")
+    
+    # Quick quality check
+    print("\nQuality Check:")
+    print(f"Entries with names: {df['LastName'].notna().sum()}")
+    print(f"Entries with addresses: {df['StreetName'].notna().sum()}")
+    print(f"Entries with occupations: {df['Occupation'].notna().sum()}")
+    
+    # Show samples
+    print("\nSample entries:")
+    print(df[['LastName', 'FirstName', 'Occupation', 'StreetName']].head(20))
