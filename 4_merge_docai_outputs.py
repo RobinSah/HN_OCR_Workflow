@@ -4,8 +4,8 @@ import re
 from collections import defaultdict
 
 # Adjust these paths
-input_dir = "/Users/robinsah/Documents/Jobs/HouseNovel/ocr_output/"
-output_dir = "/Users/robinsah/Documents/Jobs/HouseNovel/merged_outputs/"
+input_dir = ".../ocr_output/"
+output_dir = "...merged_outputs/"
 os.makedirs(output_dir, exist_ok=True)
 
 # Helper function to load JSON safely
