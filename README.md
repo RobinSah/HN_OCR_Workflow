@@ -1,7 +1,3 @@
-Absolutely! Here’s a concise, **professional workflow summary** of your project for submission, with technical details, rationale, challenges, and achievements:
-
----
-
 ## **Project Workflow: Minneapolis City Directory Resident Extraction (1900–1950)**
 
 ### **1. Image Scraping with `scraper.py`**
