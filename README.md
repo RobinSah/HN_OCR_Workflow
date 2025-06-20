@@ -91,7 +91,6 @@ Execution Chronology of the python script file
 
 ```mermaid
 flowchart TD
-
   A[scraper.py<br>Download Images (2100+ images)] 
   A --> B[pdf_batcher.py<br>Batch PDFs]
   B --> C[run_document_ai_batch.py<br>Upload to Google Cloud Bucket]
