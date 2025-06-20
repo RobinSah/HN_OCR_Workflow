@@ -1,0 +1,26 @@
+# Web scraping
+requests
+beautifulsoup4
+
+# PDF/image processing
+Pillow
+PyPDF2
+
+# Google Cloud (for Document AI, GCS interaction)
+google-cloud-storage
+google-cloud-documentai
+
+# Data wrangling and JSON processing
+pandas
+tqdm
+
+# NLP and vector search for RAG pipeline
+sentence-transformers
+faiss-cpu
+
+# (Optional, if using local LLMs for fallback)
+# transformers
+# accelerate
+
+# Other utilities
+python-dotenv   # For environment variables if needed
