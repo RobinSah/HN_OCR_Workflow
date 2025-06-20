@@ -81,7 +81,7 @@
 
 ### **Summary Diagram**
 
-Chronology
+Execution Chronology of the python script file 
 1. scraper.py
 2. pdf_batcher.py
 3. run_document_ai_batch.py
@@ -89,16 +89,17 @@ Chronology
 5. simplified_merge_json.py
 6. parse_ocr_entries.py
 
-```mermaid
+
 flowchart TD
-  A[Scraper.py<br>Download Images (2100+ images)] --> B[PDF_Batcher.py<br>Batch PDFs]
+  A[scraper.py<br>Download Images (2100+ images)] 
+  A --> B[pdf_batcher.py<br>Batch PDFs]
   B --> C[run_document_ai_batch.py<br>Upload to Google Cloud Bucket]
   C --> D[run_document_ai_batch.py(same file as C)<br>Document AI OCR Batch Processing]
   D --> E[merge_docai_outputs.py<br>Merge JSONs file provided by Document AI]
   E --> F[simplified_merge_json.py<br>Extract Text only from massive metadata]
   F --> G[parse_ocr_entries.py<br>RAG Pipeline with FAISS + GPT]
   G --> H[Clean Structured JSON]
-```
+
 
 ---
 
