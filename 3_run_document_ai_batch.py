@@ -2,14 +2,14 @@ from google.cloud import documentai_v1 as documentai
 from google.api_core.client_options import ClientOptions
 
 # Configuration (change accordingly)
-project_id = <your_project_id>
-location = <location_of_the_project>
-processor_id = <your_processor_id>
-gcs_input_uri = ".../minneapolis_1910_input/"
-gcs_output_uri = ".../minneapolis_1910_output/"
+project_id = <your_project_id> #Use your credentials
+location = <location_of_the_project> #Use your credentials
+processor_id = <your_processor_id> #Use your credentials
+gcs_input_uri = "minneapolis_1910_input" #Use your credentials
+gcs_output_uri = "minneapolis_1910_output" #Use your credentials
 
 # Initialize Document AI Client
-opts = ClientOptions(api_endpoint=f"us-documentai.googleapis.com")
+opts = ClientOptions(api_endpoint=f"{location}-documentai.googleapis.com")
 docai_client = documentai.DocumentProcessorServiceClient(client_options=opts)
 
 # Processor resource name
