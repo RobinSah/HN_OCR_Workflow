@@ -91,14 +91,17 @@ Execution Chronology of the python script file
 
 ```mermaid
 flowchart TD
-  A["scraper.py\nDownload Images (2100+ images)"]
-  A --> B["pdf_batcher.py\nBatch PDFs"]
-  B --> C["run_document_ai_batch.py\nUpload to Google Cloud Bucket"]
-  C --> D["run_document_ai_batch.py\nDocument AI OCR Batch Processing"]
-  D --> E["merge_docai_outputs.py\nMerge JSONs from Document AI"]
-  E --> F["simplified_merge_json.py\nExtract Text Only"]
-  F --> G["parse_ocr_entries.py\nRAG Pipeline with FAISS + GPT"]
-  G --> H["Clean Structured JSON"]
+  A([🟢 Start: scraper.py<br>2100+ Images])
+  B([📄 pdf_batcher.py])
+  C([☁️ run_document_ai_batch.py<br>Upload to GCS])
+  D([🤖 run_document_ai_batch.py<br>Document AI OCR])
+  E([🧩 merge_docai_outputs.py])
+  F([📝 simplified_merge_json.py])
+  G([✨ parse_ocr_entries.py<br>RAG + GPT])
+  H([✅ Structured JSON])
+
+  A --> B --> C --> D --> E --> F --> G --> H
+
 ```
 
 ---
