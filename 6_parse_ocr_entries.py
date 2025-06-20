@@ -138,7 +138,7 @@ Output only JSON:
         try:
             response = self.groq_client.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
-                model="llama-3.2-3b-preview",  # Fastest current model
+                model=<model_of_your_choice>,  # Fastest current model
                 temperature=0,
                 max_tokens=200
             )
@@ -263,7 +263,8 @@ Output only JSON:
 # Usage
 if __name__ == "__main__":
     # Option 1: Pure regex (2-5 minutes for 40MB)
-    parser = EfficientDirectoryParser()  # No API key
+
+    #Use your api key
  
     df = parser.process_all_files(
         input_folder="simplified_outputs",
