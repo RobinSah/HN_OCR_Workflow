@@ -27,6 +27,9 @@
 
   * Received page-level OCR JSON outputs for each PDF within \~30 minutes.
   * Achieved a reliable, cost-effective pipeline for large-scale OCR.
+ 
+ <img width="1504" alt="Screenshot 2025-06-19 at 12 32 41 PM" src="https://github.com/user-attachments/assets/926f4869-198d-4bc5-9b2c-1da31df780eb" />
+
 
 ### **4. Text Extraction and JSON Merging**
 
